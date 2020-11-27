@@ -3,6 +3,7 @@ module.exports = {
     title: `Scuba Diving in Punta Cana made easy`,
     description: `Scuba Dive in Punta Cana and the Dominican Republic with a certified instructor and smaller more personalized groups`,
     author: `@karnes232`,
+    
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
