@@ -6,6 +6,8 @@ import Footer from '../components/Footer';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Button from 'react-bootstrap/Button';
+
 function Species() {
     return (
         <>
@@ -32,6 +34,9 @@ function Species() {
                         )                      
                     })}
                 </div>
+            </div>
+            <div className="well d-flex justify-content-center mr-5">
+                <Button href="/" size="sm">Back Home</Button>
             </div>
             <Footer/>
             </Layout>

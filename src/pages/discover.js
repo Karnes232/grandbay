@@ -7,7 +7,23 @@ import SEO from "../components/seo"
 
 import Button from 'react-bootstrap/Button';
 
+import Paypal from "gatsby-plugin-paypal"
+
 function Discover() {
+
+    const PaylpalButton = () => (
+    <Paypal 
+      style={{
+        shape: 'rect',
+        color: 'blue',
+        layout: 'horizontal',
+        label: 'paypal',
+      }}
+      amount={1.00}
+      currency="USD"
+    />
+    )
+
     return (
         <>
         <Layout>
@@ -36,6 +52,9 @@ function Discover() {
                     </div>
                     
                 </div>
+                </div>
+                <div className="well d-flex justify-content-center mr-5">
+                    <PaylpalButton />
                 </div>
                 <div className="well d-flex justify-content-end mr-5">
                     <Button href="/scubadiver" size="sm">Scuba Diver</Button>

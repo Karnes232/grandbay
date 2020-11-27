@@ -34,14 +34,14 @@ function Saona() {
                 </div>
                 
                 <div className="container text-center">    
-                <h3><strong>Catalina Island</strong></h3>
+                <h3><strong>Saona  Island</strong></h3>
      
                 <div className="row">
                     
                     
                     <div className="col-sm-6">
                     <div className="well">
-                    <p>THE WALL:  This spectacular drop-off is definitely one of the best dive sites in the Dominican Republic.  A gentle slope leads towards the wall. On the top reef you will enjoy the abundant marine life. Every square centimetre of this sea bed is covered with sponges and hard or soft coral. The depth of this terrace varies from 1.5 to 6 meters. The drop-off is fully overgrown with coral and the crevices hide a tremendous amount of reef creatures. We restrict the depth even for advanced divers to 30 meters. </p>
+                        <p>Saona Island is probably the most famous attraction in the Dominican Republic, and for good reason! The dives are world class and the beaches are paradise! This excursion is perfect for divers and snorkelers from the Punta Cana and Bavaro areas. It is a full day tour that will take you to a wreck dive/snorkel as well as our favorite dive site called Peñon. After the dives we go have lunch on Saona Island and enjoy some beach time. </p>
                     </div>
                     </div>
                     <div className="col-sm-6">
