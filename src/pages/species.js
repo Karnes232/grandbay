@@ -35,7 +35,7 @@ function Species() {
                     })}
                 </div>
             </div>
-            <div className="well d-flex justify-content-center mr-5">
+            <div className="well d-flex justify-content-center my-3">
                 <Button href="/" size="sm">Back Home</Button>
             </div>
             <Footer/>

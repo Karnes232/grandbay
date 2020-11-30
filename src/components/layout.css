@@ -64,6 +64,10 @@ a:hover, a:active {
   font-family: 'Yellowtail', cursive;
 }
 
+.index-sections img {
+  height: 64px;
+}
+
 
 .videoWrapper {
   position: relative;
@@ -159,6 +163,11 @@ a:hover, a:active {
 .aboutus-banner img {
   height: 60vh;
 }
+
+.aboutus-section a {
+  color:  hsl(205, 78%, 60%);
+}
+
 .feature .feature-box .iconset {
     background: #fff none repeat scroll 0 0;
     float: left;
@@ -264,8 +273,13 @@ a:hover, a:active {
   padding-left: 0.25rem;
 }
 
-.trip-links a {
+.contact-link a {
   color: hsl(205, 78%, 60%);
+}
+
+.seo-tags h1 {
+  font-size: 0.1px;
+  color: transparent;
 }
 
 @media screen and (min-width:640px)
@@ -326,6 +340,20 @@ a:hover, a:active {
   .dive-info h5 {
     font-size: 1.5rem;
   }  
+
+  .dive-site-info h4 {
+    font-size: 3rem;
+  }
+
+  .dive-site-info h6 {
+    font-size: 2rem;
+  }
+
+  .about-page-footer {
+    position: absolute;
+    top: 91vh;
+    width: 100%;
+  }
 
 }
 
@@ -406,7 +434,6 @@ a:hover, a:active {
     height: 27vh;
   }
   .page-footer {
-    top: 95vh;
     position: absolute;
     width: 100%;
   }

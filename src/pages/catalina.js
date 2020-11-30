@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Link } from "gatsby"
+import Button from 'react-bootstrap/Button';
 
 function Catalina() {
     return (
@@ -20,13 +20,13 @@ function Catalina() {
                 <div class="container col-sm-4 my-auto">
                     <div class="well text-center">
                         <h4><strong>Trip Overview</strong></h4>
-                        <p>Price: $185 per person </p>
-                        <p>(2 tank dive)</p>
-                        <p>Price: $90 per person </p>
-                        <p>(snorkling)</p>
-                        <p>Duration: 7:30 - 18:00</p>
-                        <p>Lunch included</p>
-                        <p>Drinks : Alcoholic & Non-Alcoholic included</p>
+                        <p className='my-1'>Price: $175 per person </p>
+                        <p className='my-1'>(2 tank dive)</p>
+                        <p className='my-1'>Price: $60 per person </p>
+                        <p className='my-1'>(companion)</p>
+                        <p className='my-1'>Duration: 7:30 - 18:00</p>
+                        <p className='my-1'>Lunch included</p>
+                        <p className='my-1'>Drinks : Alcoholic & Non-Alcoholic included</p>
                     </div> 
                 </div>
                 </div>
@@ -61,14 +61,12 @@ function Catalina() {
                     </div>
                 </div>
 
-                <div className="well d-flex justify-content-between mx-5 trip-links">
-                    <Link to="/bayahibe">
-                        Bayahibe
-                    </Link>
-                    <Link to="/saona">
-                        Saona
-                    </Link>
+
+                <div className="well d-flex justify-content-between mx-2">
+                    <Button href="/bayahibe" size="sm">Bayahibe</Button>
+                    <Button href="/saona" size="sm">Saona</Button>
                 </div>
+
 
                 </div>
             <Footer/>

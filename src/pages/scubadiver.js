@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import DiscoverCarousel  from '../components/DiscoverCarousel';
 import Footer from '../components/Footer';
 
@@ -7,7 +7,27 @@ import SEO from "../components/seo"
 
 import Button from 'react-bootstrap/Button';
 
+import Paypal from "gatsby-plugin-paypal"
+
 function ScubaDiver() {
+
+    const [paidFor, setPaidFor] = useState(false);
+
+    const PaypalButton = () => (
+    <Paypal 
+      style={{
+        shape: 'rect',
+        color: 'blue',
+        layout: 'horizontal',
+        label: 'paypal',
+      }}
+      amount={170.00}
+      currency="USD"
+      shippingPreference="NO_SHIPPING"
+      onApprove={ (data, actions) => setPaidFor(true) }
+    />
+    )
+
     return (
         <>
         <Layout>
@@ -15,7 +35,7 @@ function ScubaDiver() {
             <DiscoverCarousel/>
             <div className="container text-center mt-4 dive-info">    
             <h3 className='mb-2'><strong>Padi Scuba Diver Course</strong></h3>
-            <h5 id='scuba-diver-info-big'><strong>What can you expect from this beginner’s PADI Scuba Diving course in the Dominican?</strong></h5>
+            <h5 id='scuba-diver-info-big'><strong>What can you expect from this beginner’s Scuba Diving course in the Dominican?</strong></h5>
             <div className="row mt-2">
             <div className="col-sm-4">
                 <div className="well">
@@ -25,15 +45,28 @@ function ScubaDiver() {
             <div className="col-sm-4"> 
                 <div className="well">
                     <h3>Course Overview</h3>
-                    <p>Course Level: Beginner</p>
-                    <p>Price: $340 per person</p>
-                    <p>Duration: 4 - 2.5 Hours sessions</p>
-                    <p>Over 2 days</p>
+                    <p className='my-1'>Course Level: Beginner</p>
+                    <p className='my-1'>Price: $340 per person</p>
+                    <p className='my-1'>Duration: 4 - 2.5 Hours sessions</p>
+                    <p className='my-1'>Over 2 days</p>
                 </div> 
+                <div className="well">
+                    <p className='mb-1 mt-2'><strong>Reserve Now</strong></p>
+                    <p className='mt-1'>Only a 50% deposit</p>
+                </div>
+                {paidFor ? (
+                    <div>
+                        <h6>Congrats, you just bought a diving course!</h6>
+                    </div>
+                ) : (
+                    <div className="well d-flex justify-content-center mb-2">
+                        <PaypalButton />
+                    </div>
+                )}
             </div>
             <div className="col-sm-4">
                 <div className="well">
-                    <h5 id='scuba-diver-info-small'><strong>What can you expect from this beginner’s PADI Scuba Diving course in the Dominican?</strong></h5>
+                    <h5 id='scuba-diver-info-small'><strong>What can you expect from this beginner’s Scuba Diving course in the Dominican?</strong></h5>
                     <p>The PADI E-Learning is a new product from PADI that makes the dive theory very easy to complete and can be downloaded on any Apple or Android device before you even arrive on Punta Cana or on the beach here, which leaves more free time for you on your vacation.</p>
                 </div>
             </div>
@@ -60,7 +93,7 @@ function ScubaDiver() {
                     </div>        
                 </div>
                 </div>
-                <div className="well d-flex justify-content-between mx-5">
+                <div className="well d-flex justify-content-between mx-2">
                     <Button href="/discover" size="sm">Discover</Button>
                     <Button href="/openwater" size="sm">Open Water</Button>
                 </div>

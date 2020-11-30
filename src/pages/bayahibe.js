@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Link } from "gatsby"
+import Button from 'react-bootstrap/Button';
 
 function Bayahibe() {
     return (
@@ -20,13 +20,11 @@ function Bayahibe() {
                 <div class="container col-sm-4 my-auto">
                     <div class="well text-center">
                         <h4><strong>Trip Overview</strong></h4>
-                        <p>Price: $185 per person </p>
-                        <p>(2 tank dive)</p>
-                        <p>Price: $90 per person </p>
-                        <p>(snorkling)</p>
-                        <p>Duration: 7:30 - 18:00</p>
-                        <p>Lunch included</p>
-                        <p>Drinks : Alcoholic & Non-Alcoholic included</p>
+                        <p className='my-1'>Price: $155 per person </p>
+                        <p className='my-1'>(2 tank dive)</p>
+                        <p className='my-1'>Duration: 7:30 - 16:00</p>
+                        <p className='my-1'>Lunch optional</p>
+                        <p className='my-1'>Drinks : Alcoholic optional</p>
                     </div> 
                 </div>
                 </div>
@@ -56,13 +54,9 @@ function Bayahibe() {
                 <div class="container text-center">    
 
 
-                <div className="well d-flex justify-content-between mx-5 trip-links">
-                    <Link to="/saona">
-                        Saona
-                    </Link>
-                    <Link to="/catalina">
-                        Catalina
-                    </Link>
+                <div className="well d-flex justify-content-between mx-2">
+                    <Button href="/saona" size="sm">Saona</Button>
+                    <Button href="/catalina" size="sm">Catalina</Button>
                 </div>
 
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiFacebook, SiInstagram } from 'react-icons/si';
+import { SiFacebook, SiInstagram, SiTwitter } from 'react-icons/si';
 import { GrMail } from 'react-icons/gr';
 import { RiWhatsappFill } from 'react-icons/ri';
 
@@ -18,6 +18,7 @@ function Footer() {
 
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <a className='mx-2' href="https://www.facebook.com/grandbaydivecenter/" target="_blank" rel="noreferrer"><SiFacebook/></a>
+                        <a className='mx-2' href="https://twitter.com/GrandBayOfTheS1" target="_blank" rel="noreferrer"><SiTwitter/></a>
                         <a className='mx-2' href="https://www.instagram.com/grandbayoftheseard/" target="_blank" rel="noreferrer"><SiInstagram/></a>
                         <a className='mx-2' href="mailto:grandbayofthesea@gmail.com"><GrMail/></a>
                         <a className='mx-2' href="https://api.whatsapp.com/send?phone=18297239338" target="_blank" rel="noreferrer"><RiWhatsappFill/></a>

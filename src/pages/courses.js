@@ -11,7 +11,7 @@ function Courses() {
         <>
         <Layout>
         <SEO title="PADI Courses" />
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col-sm-8 d-flex justify-content-center mb-1">
                         <div className="videoWrapper">
@@ -27,7 +27,7 @@ function Courses() {
                         </div>
                     </div>
                 </div>
-                <div className="row mt-2">
+                <div className="row py-4">
                     <div className="col-sm-12 d-flex justify-content-center text-center">
                         <p>It takes a little getting used to but after a few minutes, most participants realize how easy scuba diving really is. The biggest challenge for us is coaxing our students out of the water when the program is over.</p>
                     </div>

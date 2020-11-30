@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import photo1 from '../images/saona1.jpg';
 import { divesites } from '../divesites';
 import DiveSite from '../components/DiveSite';
@@ -25,7 +25,7 @@ function Sites() {
             </div>
            <div className="container-fluid bg-3 fish-id">
                <div className="text-center">
-                   <button className="btn btn-primary btn-block" data-toggle="modal" data-target="#dive-packages">More Info</button>
+                   <button className="btn btn-primary btn-block" data-toggle="modal" data-target="#dive-packages">Dive Packages</button>
                    <Modal />
                 </div>   
                 <div className="row mt-3">
@@ -34,7 +34,7 @@ function Sites() {
                     })}
                 </div>
             </div>
-            <div className="well d-flex justify-content-center mr-5">
+            <div className="well d-flex justify-content-center my-3">
                 <Button href="/" size="sm">Back Home</Button>
             </div>
             <Footer/>

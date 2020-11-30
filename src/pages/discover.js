@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import DiscoverCarousel  from '../components/DiscoverCarousel';
 import Footer from '../components/Footer';
 
@@ -11,7 +11,9 @@ import Paypal from "gatsby-plugin-paypal"
 
 function Discover() {
 
-    const PaylpalButton = () => (
+    const [paidFor, setPaidFor] = useState(false);
+
+    const PaypalButton = () => (
     <Paypal 
       style={{
         shape: 'rect',
@@ -19,8 +21,10 @@ function Discover() {
         layout: 'horizontal',
         label: 'paypal',
       }}
-      amount={1.00}
+      amount={45.00}
       currency="USD"
+      shippingPreference="NO_SHIPPING"
+      onApprove={ (data, actions) => setPaidFor(true) }
     />
     )
 
@@ -41,22 +45,34 @@ function Discover() {
                 <div className="col-sm-4"> 
                     <div className="well">
                         <h3><strong>Course Overview</strong></h3>
-                        <p>Course Level: Beginner</p>
-                        <p>Price: $105 per person</p>
-                        <p>Duration: 2.5 Hours</p>
+                        <p className='my-1'>Course Level: Beginner</p>
+                        <p className='my-1'>Price: $90 per person</p>
+                        <p className='my-1'>Duration: 2.5 Hours</p>
                     </div> 
+                    <div className="well">
+                        <p className='mb-1 mt-2'><strong>Reserve Now</strong></p>
+                        <p className='mt-1'>Only a 50% deposit</p>
+                    </div>
+                    {paidFor ? (
+                        <div>
+                            <h6>Congrats, you just bought a diving course!</h6>
+                        </div>
+                    ) : (
+                        <div className="well d-flex justify-content-center mb-2">
+                            <PaypalButton />
+                        </div>
+                    )}
+        
                 </div>
                 <div className="col-sm-4">
                     <div className="well">
-                        <p>This is a one-day PADI program that offers you the experience of Scuba diving to 12 meters, although it does not result in a certification, it can be credited as your first open water dive towards your PADI open water certification. This program is perfect for people who are interested in finding out what it is like to breath underwater and experience the underwater world.</p>
+                        <p>This is a one-day PADI program that offers you the experience of Scuba diving fromt 6 to a maximum of 12 meters, although it does not result in a certification, it can be credited as your first open water dive towards your PADI open water certification. This program is perfect for people who are interested in finding out what it is like to breath underwater and experience the underwater world.</p>
                     </div>
                     
                 </div>
                 </div>
-                <div className="well d-flex justify-content-center mr-5">
-                    <PaylpalButton />
-                </div>
-                <div className="well d-flex justify-content-end mr-5">
+                
+                <div className="well d-flex justify-content-end mr-2">
                     <Button href="/scubadiver" size="sm">Scuba Diver</Button>
                 </div>
             </div>

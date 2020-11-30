@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Link } from "gatsby"
+import Button from 'react-bootstrap/Button';
 
 function Saona() {
     return (
@@ -20,13 +20,12 @@ function Saona() {
                 <div className="container col-sm-4 my-auto">
                     <div className="well text-center">
                         <h4><strong>Trip Overview</strong></h4>
-                        <p>Price: $185 per person </p>
+                        <p>Minimum 4 Divers </p>
                         <p>(2 tank dive)</p>
-                        <p>Price: $90 per person </p>
-                        <p>(snorkling)</p>
                         <p>Duration: 7:30 - 18:00</p>
                         <p>Lunch included</p>
                         <p>Drinks : Alcoholic & Non-Alcoholic included</p>
+                        <p className='contact-link'><a href="mailto:grandbayofthesea@gmail.com">Contact us</a> for more information</p>
                     </div> 
                 </div>
                 </div>
@@ -61,13 +60,9 @@ function Saona() {
                     </div>
                 </div>
 
-                <div className="well d-flex justify-content-between mx-5 trip-links">
-                    <Link className="nav-link" to="/catalina">
-                        Catalina
-                    </Link>
-                    <Link to="/bayahibe">
-                        Bayahibe
-                    </Link>
+                <div className="well d-flex justify-content-between mx-2">
+                    <Button href="/catalina" size="sm">Catalina</Button>
+                    <Button href="/bayahibe" size="sm">Bayahibe</Button>
                 </div>
 
                 </div>

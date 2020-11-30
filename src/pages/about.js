@@ -2,6 +2,7 @@ import React from 'react'
 import { GiScubaTanks } from 'react-icons/gi';
 import AboutImg from '../images/aboutpage.png'
 import Footer from '../components/Footer';
+import { SiFacebook, SiInstagram, SiTwitter } from 'react-icons/si';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,8 +18,8 @@ function About() {
                     <div className="col-md-3 col-sm-12 col-xs-12">
                         <div className="aboutus">
                             <h2 className="aboutus-title">About Us</h2>
-                            <p className="aboutus-text">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
-                            <p className="aboutus-text mb-0">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p>
+                            <p className="aboutus-text">Grand Bay of the Sea is a local family ran dive company located in the Punta Cana area. With more than 15 years of experience throughout the Dominican Republic, we guarantee satisfaction and excellent treatment from our qualified staff. We specialize in providing a more personalized service to our clients with our professional team</p>
+                            
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-12 col-xs-12">
@@ -34,8 +35,8 @@ function About() {
                                         <GiScubaTanks className='icon'/>
                                     </div>
                                     <div className="feature-content">
-                                        <h4>Work with heart</h4>
-                                        <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                        <h4>Our Mission</h4>
+                                        <p>To provide excellent training and supervision to  guarantee your safety.</p>
                                     </div>
                                 </div>
                             </div>
@@ -45,8 +46,10 @@ function About() {
                                         <GiScubaTanks className='icon'/>
                                     </div>
                                     <div className="feature-content">
-                                        <h4>Reliable services</h4>
-                                        <p>Donec vitae sapien ut libero venenatis faucibu. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt</p>
+                                        <h4>Contact Infomation</h4>
+                                        <p>Facebook: <a className='mx-2 mt-2' href="https://www.facebook.com/grandbaydivecenter/" target="_blank" rel="noreferrer"><SiFacebook/></a></p>
+                                        <p>Instagram: <a className='mx-2' href="https://www.instagram.com/grandbayoftheseard/" target="_blank" rel="noreferrer"><SiInstagram/></a></p>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -56,8 +59,9 @@ function About() {
                                         <GiScubaTanks className='icon'/>
                                     </div>
                                     <div className="feature-content">
-                                        <h4>Great support</h4>
-                                        <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                        <p>Twitter: <a className='mx-2' href="https://twitter.com/GrandBayOfTheS1" target="_blank" rel="noreferrer"><SiTwitter/></a></p>
+                                        <p>Email: <a className='mx-2' href="mailto:grandbayofthesea@gmail.com">grandbayofthesea@gmail.com</a></p>
+                                        <p>Whatsapp: <a className='mx-2' href="https://api.whatsapp.com/send?phone=18297239338" target="_blank" rel="noreferrer">1-829-723-9338</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +70,9 @@ function About() {
                 </div>
             </div>
         </div>
+        <div className="about-page-footer">
         <Footer/>
+        </div>
         </Layout>
         </>
     )
