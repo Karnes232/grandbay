@@ -55,7 +55,7 @@ function Discover() {
                     </div>
                     {paidFor ? (
                         <div>
-                            <h6>Congrats, you just bought a diving course!</h6>
+                            <h6>Thanks for choosing to dive with us!</h6>
                         </div>
                     ) : (
                         <div className="well d-flex justify-content-center mb-2">

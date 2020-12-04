@@ -22,21 +22,21 @@ function Trips() {
                         <Link className="nav-link"  to="/catalina">
                         <h4><strong>Catalina Island</strong></h4>
                         <img className='my-2' src={icon1} alt="Scuba Diving Punta Cana"/>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur a explicabo tenetur quaerat voluptas ullam perferendis accusantium reiciendis. Optio, perferendis.</p>
+                        <p>If you dreamed of a Caribbean paradise, you'll find it right here on Catalina Island.</p>
                         </Link>
                     </div>
                     <div className="section text-center w-75 p-3 mt-0 mx-auto col-12 col-md-4">
                         <Link className="nav-link"  to="/saona">
                         <h4><strong>Saona Island</strong></h4>
                         <img className='my-2' src={icon2} alt="Scuba Diving Punta Cana"/>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur a explicabo tenetur quaerat voluptas ullam perferendis accusantium reiciendis. Optio, perferendis.</p>
+                        <p>Saona Island is the excursion that everyone recommends when they know that you are visiting the Dominican Republic.</p>
                         </Link>
                     </div>
                     <div className="section text-center w-75 p-3 mt-0 mx-auto col-12 col-md-4">
                         <Link className="nav-link"  to="/bayahibe">
                         <h4><strong>Bayahibe Diving</strong></h4>
                         <img className='my-2' src={icon3} alt="Scuba Diving Punta Cana"/>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur a explicabo tenetur quaerat voluptas ullam perferendis accusantium reiciendis. Optio, perferendis.</p>
+                        <p>This quiet fishing village has some amazing dive sites, including a couple wrecks that will surprise any diver.</p>
                         </Link>
                     </div>
                 </div>

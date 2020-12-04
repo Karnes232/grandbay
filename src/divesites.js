@@ -26,14 +26,14 @@ export const divesites = [
     name: 'El Nino',
     depth: '6 meters / 20 Feet',
     img: 'https://i.ibb.co/CVGS9r2/image13.jpg',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates corrupti neque adipisci animi, est porro beatae aspernatur magnam officiis, ducimus iusto doloribus, velit deleniti labore. Et, unde nihil quidem sequi ipsam, necessitatibus iusto veniam amet sint eveniet debitis dolore non at enim facere nulla excepturi ipsum doloribus repudiandae iste. Maxime?',
+    desc: 'Ideal conditions for beginner divers and divers who are just looking to refresh their skills. Despite this dive being one of the shallowest comparing to others, El Niño impresses with lots of wonderful schools of tropical fish.',
   },
   {
     id: 5,
     name: 'Submarine',
     depth: '6 meters / 20 Feet',
     img: 'https://i.ibb.co/7kqn75B/image7.jpg',
-    desc: 'Was created to make excursions by an engineer of Russian nationality, it was working for a period of 10 years until one day in 2004 when the hurricane Gorge was passing and  sunken at 1/4 of miles from shore in cabeza de toro area, from that date it became a sanctuary for the divers, its dimensions are 50 by 15 and depth of 5 to 7 meters.',
+    desc: 'Was created to make excursions by an Russian engineer. The submarine was in service from 1994 until 2004 when hurricane George passed thru the Dominican Republic and it sunk just a 1/4 mile off the shores of Cabeza de Toro. Since then it has became a sanctuary for the divers, its dimensions are 50 by 15 and depth of 5 to 7 meters.',
   },
   {
     id: 6,
@@ -41,5 +41,26 @@ export const divesites = [
     depth: '19 meters / 62 Feet',
     img: 'https://i.ibb.co/m4sftJm/image16.jpg',
     desc: "The anchor The anchor ed a reef with a depth of 19 meters and a minimum of 14, that's where Monica's sailors dropped the anchor when they realized that it was very close to the dog coast, it was too late, in this reef we can find the chain from the freighter's anchor Monica the anchor was pulled out of the water by the natives",
+  },
+  {
+    id: 7,
+    name: 'Cuevitas',
+    depth: '10 meters / 33 Feet',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/St_Johns_Cave_Systems_%28223127777%29.jpeg/576px-St_Johns_Cave_Systems_%28223127777%29.jpeg',
+    desc: "Discover the thrills of swimming through the canyons and small caves that make up Cuevitas. All the swim throughts are illuminated by enough nature light that their is no need for flashlights, but they are welcome as you will be able to find some of the lobsters and cleaner shrimp hiding inside the caves. As well this site offers a variety of different corals and fishes to be seen.",
+  },
+  {
+    id: 8,
+    name: 'St. George Wreck - Bayahibe',
+    depth: '40 meters / 131 Feet',
+    img: 'https://www.godominicanrepublic.com/wp-content/uploads/2018/03/st.-george-shipwreck-0.jpg',
+    desc: "Located just a half-mile off the coast of Dominicus in Bayahíbe, the 73-meter (240 feet) long St. George ship was originally built in 1962 in Scotland, and was used to transport wheat and barley from Europe to the Caribbean. Today, the sunken ship is home to barracudas, moray eels, king mackerels, and groupers, among other species. Due to its depth of 40 meters (131 feet), it is recommended only for advanced divers.",
+  },
+  {
+    id: 9,
+    name: 'The Wall - Catalina',
+    depth: '30 meters / 100 Feet',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/The_Aquarium%2C_Catalina_Island_.jpg/1280px-The_Aquarium%2C_Catalina_Island_.jpg',
+    desc: "This spectacular drop-off is definitely one of the best dive sites in the Dominican Republic.  A gentle slope leads towards the wall. On the top reef you will enjoy the abundant marine life. Every square centimetre of this sea bed is covered with sponges and hard or soft coral. The depth of this terrace varies from 1.5 to 6 meters. The drop-off is fully overgrown with coral and the crevices hide a tremendous amount of reef creatures. We restrict the depth even for advanced divers to 30 meters. ",
   },
 ];

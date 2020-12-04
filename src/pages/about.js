@@ -47,8 +47,8 @@ function About() {
                                     </div>
                                     <div className="feature-content">
                                         <h4>Contact Infomation</h4>
-                                        <p>Facebook: <a className='mx-2 mt-2' href="https://www.facebook.com/grandbaydivecenter/" target="_blank" rel="noreferrer"><SiFacebook/></a></p>
-                                        <p>Instagram: <a className='mx-2' href="https://www.instagram.com/grandbayoftheseard/" target="_blank" rel="noreferrer"><SiInstagram/></a></p>
+                                        <p>Facebook: <a className='mx-2 mt-2' href="https://www.facebook.com/grandbaydivecenter/" target="_blank" aria-label="Facebook" rel="noreferrer"><SiFacebook/></a></p>
+                                        <p>Instagram: <a className='mx-2' href="https://www.instagram.com/grandbayoftheseard/" aria-label="Instagram" target="_blank" rel="noreferrer"><SiInstagram/></a></p>
                                         
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@ function About() {
                                         <GiScubaTanks className='icon'/>
                                     </div>
                                     <div className="feature-content">
-                                        <p>Twitter: <a className='mx-2' href="https://twitter.com/GrandBayOfTheS1" target="_blank" rel="noreferrer"><SiTwitter/></a></p>
+                                        <p>Twitter: <a className='mx-2' href="https://twitter.com/GrandBayOfTheS1" target="_blank" aria-label="Twitter" rel="noreferrer"><SiTwitter/></a></p>
                                         <p>Email: <a className='mx-2' href="mailto:grandbayofthesea@gmail.com">grandbayofthesea@gmail.com</a></p>
                                         <p>Whatsapp: <a className='mx-2' href="https://api.whatsapp.com/send?phone=18297239338" target="_blank" rel="noreferrer">1-829-723-9338</a></p>
                                     </div>

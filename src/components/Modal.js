@@ -1,6 +1,26 @@
-import React from 'react';
+import React, {useState} from 'react';
+
+import Paypal from "gatsby-plugin-paypal"
 
 function Modal() {
+
+    const [paidFor, setPaidFor] = useState(false);
+
+    const PaypalButton = () => (
+    <Paypal 
+      style={{
+        shape: 'rect',
+        color: 'blue',
+        layout: 'horizontal',
+        label: 'paypal',
+      }}
+      amount={50.00}
+      currency="USD"
+      shippingPreference="NO_SHIPPING"
+      onApprove={ (data, actions) => setPaidFor(true) }
+    />
+    )
+
     return (
         <>
         <div className="modal fade" id="dive-packages" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -20,7 +40,21 @@ function Modal() {
                         <p>Duration: 2 days of diving</p>
                         <p>Nitrox: $15 per dive</p>
                         <p>Other packages avaible upon request</p>
-                    </div> 
+                    </div>
+                    <div className="underline my-4"></div>
+                    <div className="well">
+                        <p className='mb-1 mt-2'><strong>Reserve Now</strong></p>
+                        <p className='mt-1'>Only a $50 deposit</p>
+                    </div>
+                    {paidFor ? (
+                        <div>
+                            <h6>Thanks for choosing to dive with us!</h6>
+                        </div>
+                    ) : (
+                        <div className="well d-flex justify-content-center mb-2">
+                            <PaypalButton />
+                        </div>
+                    )} 
                 </div>
                 <div class="modal-footer">
                     <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>

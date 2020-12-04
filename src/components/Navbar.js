@@ -46,6 +46,11 @@ function Navbar() {
                         Species Guide
                     </Link>
                 </li>
+                <li className="nav-item active">
+                    <a className='nav-link' href="mailto:grandbayofthesea@gmail.com" aria-label="Gmail">
+                        Contact Us
+                    </a>
+                </li>
                 </ul>
             </div>
             </div>
