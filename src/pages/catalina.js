@@ -72,7 +72,7 @@ function Catalina() {
 
                 </div>
                 
-                <div class="container text-center">    
+                <div class="mx-5 text-center">    
         
                 <div class="row">
                     <div class="col-sm-12">

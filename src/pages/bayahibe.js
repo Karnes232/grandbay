@@ -65,7 +65,7 @@ function Bayahibe() {
 
                 </div>
                 
-                <div class="container text-center">    
+                <div class="mx-5 text-center">    
                 <h3><strong>Bayahibe</strong></h3>
      
                 <div class="row">
@@ -85,7 +85,7 @@ function Bayahibe() {
 
                 </div>
                 
-                <div class="container text-center">    
+                <div class="mx-5 text-center">    
 
 
                 <div className="well d-flex justify-content-between mx-2">

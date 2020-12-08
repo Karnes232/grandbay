@@ -15,7 +15,7 @@ function Trips() {
         <Layout>
         <SEO title="Dive Trips" />
             <TripCarousel/> 
-            <div className="container text-center mt-4 dive-info">
+            <div className="mx-5 text-center mt-4 dive-info">
                 <h5 className='mb-2'><strong>The Caribbean Sea and thriving reefs will have divers exploring the shallow reefs, or the deeper wrecks.</strong></h5>
                 <div className="row mt-2">
                     <div className="section text-center w-75 p-3 mt-0 mx-auto col-12 col-md-4">

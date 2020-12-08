@@ -66,7 +66,7 @@ function Saona() {
 
                 </div>
                 
-                <div className="container text-center">    
+                <div className="mx-5 text-center">    
                 <h3><strong>Saona  Island</strong></h3>
      
                 <div className="row">
@@ -86,7 +86,7 @@ function Saona() {
 
                 </div>
                 
-                <div className="container text-center">    
+                <div className="mx-5 text-center">    
         
                 <div className="row">
                     <div className="col-sm-12">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { GiScubaTanks } from 'react-icons/gi';
-import AboutImg from '../images/aboutpage.png'
+import AboutImg from '../images/franklin.png'
+import AboutImg2 from '../images/franklin3.png'
 import Footer from '../components/Footer';
 import { SiFacebook, SiInstagram, SiTwitter } from 'react-icons/si';
 
@@ -13,9 +14,9 @@ function About() {
         <Layout>
         <SEO title="About Us" />
           <div className="aboutus-section">
-            <div className="container">
+            <div className="container aboutus-container">
                 <div className="row">
-                    <div className="col-md-3 col-sm-12 col-xs-12">
+                    <div className="col-md-3 col-sm-12 col-xs-12" id='aboutus'>
                         <div className="aboutus">
                             <h2 className="aboutus-title">About Us</h2>
                             <p className="aboutus-text">Grand Bay of the Sea is a local family ran dive company located in the Punta Cana area. With more than 15 years of experience throughout the Dominican Republic, we guarantee satisfaction and excellent treatment from our qualified staff. We specialize in providing a more personalized service to our clients with our professional team</p>
@@ -23,8 +24,11 @@ function About() {
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-12 col-xs-12">
-                        <div className="aboutus-banner">
-                            <img className='mb-3' src={AboutImg} alt=""/>
+                        <div className="aboutus-banner about-large text-center">
+                            <img className='mb-3' src={AboutImg2} alt=""/>
+                        </div>
+                        <div className="aboutus-banner about-small">
+                            <img className='mb-3 rounded mx-auto d-block' src={AboutImg} alt=""/>
                         </div>
                     </div>
                     <div className="col-md-5 col-sm-12 col-xs-12">

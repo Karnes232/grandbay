@@ -11,7 +11,7 @@ function Courses() {
         <>
         <Layout>
         <SEO title="PADI Courses" />
-            <div className="container mt-5">
+            <div className="mx-5 mt-5">
                 <div className="row">
                     <div className="col-sm-8 d-flex justify-content-center mb-1">
                         <div className="videoWrapper">

@@ -161,7 +161,15 @@ a:hover, a:active {
 
 
 .aboutus-banner img {
-  height: 60vh;
+  height: 30vh;
+}
+
+.about-small img {
+  height: 30vh;
+}
+
+.about-large {
+  display: none;
 }
 
 .aboutus-section a {
@@ -371,6 +379,14 @@ a:hover, a:active {
  .modal-header h3 {
    font-size: 2.5rem;
  }
+
+ .about-small {
+   display: none;
+ }
+ .about-large {
+   display: block;
+   margin-left: 0;
+ }
 }
 
 @media screen and (max-width:639px){
@@ -464,4 +480,51 @@ a:hover, a:active {
   .aboutus-section {
     margin-top: 10vh;
   }
+}
+
+@media screen and (min-width:1900px) {
+
+  p {
+    font-size: 2rem;
+  }
+
+  .aboutus-text {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  .feature .feature-box .feature-content p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .feature .feature-box .feature-content h4{
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .about-large img {
+    height: 50vh;
+  }
+
+  .aboutus-container {
+    margin-left: 10%;
+  }
+
+  .aboutus-container .row {
+    width: 90%;
+  }
+
+  .aboutus {
+    width: 20vw;
+  }
+
+  .aboutus-banner {
+    margin-left: 250px;
+  }
+
+  .feature {
+    margin-left: 400px;
+    width: 450px;
+  }
+
 }
