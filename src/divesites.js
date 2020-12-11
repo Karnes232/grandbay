@@ -51,16 +51,37 @@ export const divesites = [
   },
   {
     id: 8,
+    name: 'Finger Coral Plantation',
+    depth: '6 meters / 20 Feet',
+    img: 'https://i.ibb.co/6b7F4PR/photo7.jpg',
+    desc: "This place is beautiful and very interesting, it has a depth of 6 meters, the bottom is sandy and with very large rocks where corals are born. The interesting thing about this place in the coral nursery that we have created to stake out in all our dive sites, also we have a lot of yellowtail snapper fish among others.",
+  },
+  {
+    id: 9,
+    name: 'Rock City',
+    depth: '16 meters / 53 Feet',
+    img: 'https://i.ibb.co/Qpjs3Z4/image9.jpg',
+    desc: "Here in Rock City there is a depth between 5 meters (17 feet) upto 16 meters (53 feet) because of the formation of the canyons that lay in the natural reef. This is also the reason that it is so calm on the beach of cabeza de toro. When the conditions are permitting this site is an amazing experience to do drift dives.",
+  },  
+  {
+    id: 10,
     name: 'St. George Wreck - Bayahibe',
     depth: '40 meters / 131 Feet',
     img: 'https://www.godominicanrepublic.com/wp-content/uploads/2018/03/st.-george-shipwreck-0.jpg',
     desc: "Located just a half-mile off the coast of Dominicus in Bayahíbe, the 73-meter (240 feet) long St. George ship was originally built in 1962 in Scotland, and was used to transport wheat and barley from Europe to the Caribbean. Today, the sunken ship is home to barracudas, moray eels, king mackerels, and groupers, among other species. Due to its depth of 40 meters (131 feet), it is recommended only for advanced divers.",
   },
   {
-    id: 9,
+    id: 11,
     name: 'The Wall - Catalina',
     depth: '30 meters / 100 Feet',
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/The_Aquarium%2C_Catalina_Island_.jpg/1280px-The_Aquarium%2C_Catalina_Island_.jpg',
     desc: "This spectacular drop-off is definitely one of the best dive sites in the Dominican Republic.  A gentle slope leads towards the wall. On the top reef you will enjoy the abundant marine life. Every square centimetre of this sea bed is covered with sponges and hard or soft coral. The depth of this terrace varies from 1.5 to 6 meters. The drop-off is fully overgrown with coral and the crevices hide a tremendous amount of reef creatures. We restrict the depth even for advanced divers to 30 meters. ",
+  },
+  {
+    id: 12,
+    name: 'Atlantic Princess - Bayahibe',
+    depth: '10 meters / 33 Feet',
+    img: 'https://i.ibb.co/Qbcr9y9/photo5.jpg',
+    desc: "More infomation coming ",
   },
 ];

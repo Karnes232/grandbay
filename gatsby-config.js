@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Scuba Diving in Punta Cana made easy`,
-    description: `Scuba Dive in Punta Cana and the Dominican Republic with a certified instructor and smaller more personalized groups`,
+    description: `Scuba Dive in Punta Cana and the Dominican Republic with a certified instructor and smaller more personalized diving groups`,
     keywords: `scuba diving in punta cana, punta cana dive sites, punta cana scuba diving, punta cana excursions, diving punta cana`,
     url: `https://awesome-wescoff-283220.netlify.app`,
     author: `@GrandBayOfTheS1`,
@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-paypal`,
       options: {
-        clientId: `AWKpOxlq063t4e3-YvGIHBWohFbzZ_o0Y1M2juHc6EaAr5iK_UfOAEKb_YxhdpRvC5uu_Sj444MyUzmZ`,
+        clientId: `AUGdviCz48u3xxms4oIKwXA6hOXcgAIFhF6O-2i2hD2Qg-_F-5KyzDeVbXlmvS5J5pxsMNYM_aHMJlRZ`,
         currency: `USD` 
       }
     },

@@ -40,7 +40,7 @@ function Saona() {
                 <div className="container col-sm-4 my-auto">
                     <div className="well text-center">
                         <h4><strong>Trip Overview</strong></h4>
-                        <p>Minimum 4 Divers </p>
+                        <p>Minimum 2 Divers </p>
                         <p>(2 tank dive)</p>
                         <p>Duration: 7:30 - 18:00</p>
                         <p>Lunch included</p>
@@ -68,18 +68,25 @@ function Saona() {
                 
                 <div className="mx-5 text-center">    
                 <h3><strong>Saona  Island</strong></h3>
+
+                <div className="row">
+                    <div className="col-sm-12">
+                        <p>Saona Island is probably the most famous attraction in the Dominican Republic, and for good reason! The dives are world class and the beaches are paradise! This excursion is perfect for divers and snorkelers from the Punta Cana and Bavaro areas. It is a full day tour that will take you to a wreck dive/snorkel as well as our favorite dive site called el Penon. After the dives we go have lunch on Saona Island and enjoy some beach time. </p>
+                    </div>
+                </div>
+
      
                 <div className="row">
                     
                     
                     <div className="col-sm-6">
                     <div className="well">
-                        <p>Saona Island is probably the most famous attraction in the Dominican Republic, and for good reason! The dives are world class and the beaches are paradise! This excursion is perfect for divers and snorkelers from the Punta Cana and Bavaro areas. It is a full day tour that will take you to a wreck dive/snorkel as well as our favorite dive site called Peñon. After the dives we go have lunch on Saona Island and enjoy some beach time. </p>
+                        <p>Our diving excursion to Saona Island is very personalized as we only do it with private groups with a minimum of 2 people. That way we are able to provide the best service possible. The excursion is possible any day as long as the conditions are permitting. We will leave From the Punta Cana area at 8:30 am, (since it is private you don't have to wait for anyone else). It will take approximately 40 minutes until we reach Bayahibe where we will embark for our journey. </p>
                     </div>
                     </div>
                     <div className="col-sm-6">
                         <div className="well">
-                            <p>THE AQUARIUM: The dive site is proteced from the wind. Year round perfect conditions at the surface guarantee a very easy dive at about 12 meters depth. Incredibly healthy coral formations await you on the almost flat sandy bottom. Yellow stingrays, lobsters, moray eels, angelfish, grunts, snappers, soldier fish and trunkfish are only part of its attraction. Huge vase and barrel sponges hide stone crabs and “sea spiders”. You will see trumpet fish trying to blend in with the branches of soft coral formations. </p>
+                            <p>The first dive we will do is the Atlantic princess which is a very interesting shipwreck with a lot of marine life, this allows your companions who do not dive the chance to snorkel. Afterwards we head towards Saona Island for the second dive, this will be at el Penon. It is one of the best places to dive in the Caribbean Sea since it is somewhat remote and lacks divers where you can also enjoy snorkeling. Then we go to one of the 7 beaches that Saona Island has where we are going to enjoy a delicious buffet just for us. Then we can relax on the beautiful beach, on our way back we can stop at the natural pool and enjoy there seeing the starfish.</p>
                         </div>
                     </div>  
                 </div>
@@ -88,11 +95,7 @@ function Saona() {
                 
                 <div className="mx-5 text-center">    
         
-                <div className="row">
-                    <div className="col-sm-12">
-                    <p>It is a popular tourist destination and place frequented by some cruises ships of the Caribbean. Recommended activities on Catalina Island: snorkeling and diving, given the nature of its translucent waters and surrounded by live coral living in colorful fish. Isla Catalina, is an ideal option to take as an excursion if you are spending your vacations in La Romana, Punta Cana.</p>
-                    </div>
-                </div>
+                
 
                 <div className="well d-flex justify-content-between mx-2">
                     <Button href="/catalina" size="sm">Catalina</Button>

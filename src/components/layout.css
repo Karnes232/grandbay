@@ -20,6 +20,15 @@ a:hover, a:active {
   color: inherit;
 }
 
+.girl-on-boat {
+  top: 60px;
+  
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
 .underline {
   height: 0.25rem;
   width: 5rem;
@@ -153,7 +162,7 @@ a:hover, a:active {
     width: 54px;
 }
 .aboutus-text {
-    color: #606060;
+    
     font-size: 13px;
     line-height: 22px;
     margin: 0 0 35px;
@@ -468,6 +477,14 @@ a:hover, a:active {
 
 @media screen and (min-width:1900px) {
   
+
+  .navbar-brand img {
+    height: 90px;
+  }
+
+  .nav-item a {
+    font-size: 1.3rem;
+  }
 
   .aboutus-banner img {
     height: 40vh;

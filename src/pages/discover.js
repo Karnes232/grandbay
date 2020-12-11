@@ -46,8 +46,9 @@ function Discover() {
                     <div className="well">
                         <h3><strong>Course Overview</strong></h3>
                         <p className='my-1'>Course Level: Beginner</p>
-                        <p className='my-1'>Price: $90 per person</p>
+                        <p className='my-1'>Price: $85 per person</p>
                         <p className='my-1'>Duration: 2.5 Hours</p>
+                        <p>Includes: Transport</p>
                     </div> 
                     <div className="well">
                         <p className='mb-1 mt-2'><strong>Reserve Now</strong></p>

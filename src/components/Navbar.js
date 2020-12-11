@@ -8,7 +8,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light bg-light ">
             <div className="container mx-5">
                 <Link className="navbar-brand" to="/">
-                    <img src={logo} height="60" alt="Grand Bay of the Sea Scuba Diving in Punta Cana"></img>
+                    <img src={logo} alt="Grand Bay of the Sea Scuba Diving in Punta Cana"></img>
                 </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

@@ -48,6 +48,7 @@ function ScubaDiver() {
                     <p className='my-1'>Course Level: Beginner</p>
                     <p className='my-1'>Price: $340 per person</p>
                     <p className='my-1'>Duration: 4 - 2.5 Hours sessions</p>
+                    <p>Includes: Transport</p>
                     <p className='my-1'>Over 2 days</p>
                 </div> 
                 <div className="well">

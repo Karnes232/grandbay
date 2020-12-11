@@ -39,6 +39,7 @@ function Modal() {
                         <p>4 Tank Package: $180</p>
                         <p>Duration: 2 days of diving</p>
                         <p>Nitrox: $15 per dive</p>
+                        <p>Includes: Transport</p>
                         <p>Other packages avaible upon request</p>
                     </div>
                     <div className="underline my-4"></div>
