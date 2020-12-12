@@ -1,5 +1,4 @@
 import React from 'react';
-import photo1 from '../images/saona1.jpg';
 import { fish } from '../fish';
 import Footer from '../components/Footer';
 
@@ -15,7 +14,7 @@ function Species() {
         <SEO title="Fishes of Punta Cana" />
             <div className="jumbotron">
                 <div className="jumbotron-background">
-                    <img src={photo1} alt=""/>
+                    <img src="https://i.ibb.co/HpdmSGf/saona1.jpg" alt=""/>
                 </div>
                 <div className="container text-center">
                     <h1>Fish of the Caribbean</h1>     

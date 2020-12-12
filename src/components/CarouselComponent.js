@@ -1,16 +1,7 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import photo1 from '../images/cb1.jpg'
-import photo3 from '../images/photo1.jpg'
-import photo4 from '../images/photo2.jpg'
-import photo5 from '../images/photo3.jpg'
-import photo6 from '../images/photo4.jpg'
-import photo7 from '../images/photo5.jpg'
-import photo8 from '../images/photo6.jpg'
-import photo9 from '../images/photo7.jpg'
-import photo10 from '../images/photo8.jpg'
-import photo11 from '../images/photo9.jpg'
+
 
 
 
@@ -40,22 +31,22 @@ export default function CarouselComponent() {
                     <img src="https://i.ibb.co/j6g6xFj/image4.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img className='girl-on-boat' src="https://i.ibb.co/BcDKrJJ/image1.jpg" alt="Scuba Diving Punta Cana"/>
+                    <img className='girl-on-boat' src="https://i.ibb.co/wr8q9FL/girlboat2.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img src={photo7} alt="Scuba Diving Punta Cana"/>
+                    <img src="https://i.ibb.co/Qbcr9y9/photo5.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/Bs6txmm/ds3.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img src={photo9} alt="Scuba Diving Punta Cana"/>
+                    <img src="https://i.ibb.co/6b7F4PR/photo7.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img src={photo10} alt="Scuba Diving Punta Cana"/>
+                    <img src="https://i.ibb.co/TqbThsF/photo8.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img src={photo11} alt="Scuba Diving Punta Cana"/>
+                    <img src="https://i.ibb.co/WP7dCKY/photo9.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
 
                 

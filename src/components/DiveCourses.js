@@ -1,9 +1,5 @@
 import React from 'react'
 import { Link } from "gatsby"
-import photo1 from '../images/cb1.jpg'
-import photo3 from '../images/photo1.jpg'
-import photo4 from '../images/photo2.jpg'
-import photo5 from '../images/photo3.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 
 function DiveCourses() {
@@ -14,7 +10,7 @@ function DiveCourses() {
                     <div className="row">
                         <div className="col-sm-8 carousel-photo">
                             <Link className="nav-link" to="/discover">
-                                <img src={photo1} alt="Discover Scuba Diving Punta Cana"/>
+                                <img src="https://i.ibb.co/C1RjT0N/cb1.jpg" alt="Discover Scuba Diving Punta Cana"/>
                             </Link>
                         </div>
                         <div className="col-sm-3 text-center d-flex align-items-center dive-course-info"> 
@@ -35,7 +31,7 @@ function DiveCourses() {
                         </div>
                         <div className="col-sm-8 carousel-photo">
                             <Link className="nav-link" to="/scubadiver"> 
-                                <img src={photo3} alt="Scuba Diver PADI Punta Cana"/>
+                                <img src="https://i.ibb.co/KDV5JVh/photo1.jpg" alt="Scuba Diver PADI Punta Cana"/>
                             </Link>
                         </div>                    
                     </div>
@@ -44,7 +40,7 @@ function DiveCourses() {
                     <div className="row">
                         <div className="col-sm-8 carousel-photo">
                             <Link className="nav-link" to="/openwater">
-                                <img src={photo4} alt="Open Water Diver Punta Cana"/>
+                                <img src="https://i.ibb.co/RBMtjhx/photo2.jpg" alt="Open Water Diver Punta Cana"/>
                             </Link>
                         </div>
                         <div className="col-sm-3 text-center d-flex align-items-center dive-course-info">
@@ -65,7 +61,7 @@ function DiveCourses() {
                         </div>
                         <div className="col-sm-8 carousel-photo">
                             <Link className="nav-link" to="/advanced">
-                                <img src={photo5} alt="Advanced Open Water Punta Cana"/>
+                                <img src="https://i.ibb.co/mBRX4v9/photo3.jpg" alt="Advanced Open Water Punta Cana"/>
                             </Link> 
                         </div>                           
                     </div>

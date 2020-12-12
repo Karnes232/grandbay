@@ -82,6 +82,6 @@ export const divesites = [
     name: 'Atlantic Princess - Bayahibe',
     depth: '10 meters / 33 Feet',
     img: 'https://i.ibb.co/Qbcr9y9/photo5.jpg',
-    desc: "More infomation coming ",
+    desc: "The Atlantic Princess was a small cruise ship used by tourists of the area. In 2008, it ran aground on the beach during Tropical Storm Fay. The plan was to sink the ship, and create a beautiful underwater environment and artificial reef for visitors to enjoy. But the Atlantic Princess actually sunk on its own on May 6, 2009, and rests at just 12 meters (40 feet) below the surface. To this day, it remains a great dive spot for all, beginners to experts, thanks to its abundant marine life at shallow depths.",
   },
 ];

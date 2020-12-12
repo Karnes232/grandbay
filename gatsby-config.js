@@ -4,10 +4,13 @@ module.exports = {
     description: `Scuba Dive in Punta Cana and the Dominican Republic with a certified instructor and smaller more personalized diving groups`,
     keywords: `scuba diving in punta cana, punta cana dive sites, punta cana scuba diving, punta cana excursions, diving punta cana`,
     url: `https://www.grandbay-puntacana.com`,
+    siteUrl: `https://www.grandbay-puntacana.com`,
     author: `@GrandBayOfTheS1`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-paypal`,
       options: {

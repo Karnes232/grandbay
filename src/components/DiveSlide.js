@@ -2,10 +2,7 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "gatsby"
-import photo1 from '../images/cb1.jpg'
-import photo3 from '../images/photo1.jpg'
-import photo4 from '../images/photo2.jpg'
-import photo5 from '../images/photo3.jpg'
+
 
 function DiveSlide() {
     return (
@@ -24,7 +21,7 @@ function DiveSlide() {
                     <Link to="/discover">
                     <div className="row d-flex justify-content-center">
                     <div className="col-xs-8 carousel-wrapper-inner w-100">
-                        <img className='w-100' id='dis-photo' src={photo1} alt="Discover Scuba Diving Punta Cana"/>
+                        <img className='w-100' id='dis-photo' src="https://i.ibb.co/C1RjT0N/cb1.jpg" alt="Discover Scuba Diving Punta Cana"/>
                     </div>
                     <div className="col-xs-2 mt-2">
                         <div className="well course-list-small-screen">
@@ -41,7 +38,7 @@ function DiveSlide() {
                     <Link to="/scubadiver">
                     <div className="row d-flex justify-content-center">
                     <div className="col-xs-8 carousel-wrapper-inner w-100">
-                        <img className='w-100' src={photo3}  alt="Scuba Diver PADI Punta Cana"/>
+                        <img className='w-100' src="https://i.ibb.co/KDV5JVh/photo1.jpg"  alt="Scuba Diver PADI Punta Cana"/>
                     </div>
                     <div className="col-xs-2 mt-2">
                         <div className="well course-list-small-screen">
@@ -58,7 +55,7 @@ function DiveSlide() {
                     <Link to="/openwater">
                     <div className="row d-flex justify-content-center">
                     <div className="col-xs-8 carousel-wrapper-inner w-100">
-                        <img className='w-100' src={photo4} alt="Open Water Punta Cana"/>
+                        <img className='w-100' src="https://i.ibb.co/RBMtjhx/photo2.jpg" alt="Open Water Punta Cana"/>
                     </div>
                     <div className="col-xs-2 mt-2">
                         <div className="well course-list-small-screen">
@@ -75,7 +72,7 @@ function DiveSlide() {
                     <Link to="/advanced">
                     <div className="row d-flex justify-content-center">
                     <div className="col-xs-8 carousel-wrapper-inner w-100">
-                        <img className='w-100' src={photo5} alt="Advanced Open Water Punta Cana"/>
+                        <img className='w-100' src="https://i.ibb.co/mBRX4v9/photo3.jpg" alt="Advanced Open Water Punta Cana"/>
                     </div>
                     <div className="col-xs-2 mt-2">
                         <div className="well course-list-small-screen">

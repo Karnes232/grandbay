@@ -1,8 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import photo4 from '../images/saona1.jpg'
-import photo5 from '../images/photo4.jpg'
+
 
 function SaonaCarousel() {
     return (
@@ -27,10 +26,10 @@ function SaonaCarousel() {
                     <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Beachfront_houses_Saona_Island.jpg/1024px-Beachfront_houses_Saona_Island.jpg' alt="Scuba Diving Punta Cana Bayahibe"/>
                 </div>
                 <div>
-                    <img src={photo4} alt="Scuba Diving Punta Cana Saona"/>
+                    <img src="https://i.ibb.co/HpdmSGf/saona1.jpg" alt="Scuba Diving Punta Cana Saona"/>
                 </div>
                 <div>
-                    <img src={photo5} alt="Scuba Diving Bavaro"/>
+                    <img src="https://i.ibb.co/mtgX390/photo4.jpg" alt="Scuba Diving Bavaro"/>
                 </div>
             </Carousel>
         </div>   
