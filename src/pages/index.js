@@ -16,6 +16,7 @@ const IndexPage = () => (
   <Layout>
     <Helment>
         <link rel="canonical" href="https://www.grandbay-puntacana.com" />
+        <meta name="google-site-verification" content="QNQfgD0iQIbuHkuZ5fb8hKEYbV6iCN_TvIyRdnAu7yg" />
     </Helment>
     <SEO title="Grand Bay of the Sea" />
     <div className="seo-tags">
