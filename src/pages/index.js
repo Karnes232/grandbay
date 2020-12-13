@@ -15,7 +15,7 @@ import Helment from 'react-helmet'
 const IndexPage = () => (
   <Layout>
     <Helment>
-        <link rel="canonical" href="https://awesome-wescoff-283220.netlify.app" />
+        <link rel="canonical" href="https://www.grandbay-puntacana.com" />
     </Helment>
     <SEO title="Grand Bay of the Sea" />
     <div className="seo-tags">

@@ -4,13 +4,16 @@ import AboutImg from '../images/franklin.png'
 import AboutImg2 from '../images/franklin3.png'
 import Footer from '../components/Footer';
 import { SiFacebook, SiInstagram, SiTwitter } from 'react-icons/si';
-
+import Helment from 'react-helmet'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 function About() {
     return (
         <>
+        <Helment>
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/about" />
+        </Helment>
         <Layout>
         <SEO title="About Us" />
           <div className="aboutus-section">

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import DiscoverCarousel  from '../components/DiscoverCarousel';
 import Footer from '../components/Footer';
-
+import Helment from 'react-helmet'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -30,8 +30,12 @@ function Discover() {
 
     return (
         <>
+        <Helment>
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/discover" />
+        </Helment>
         <Layout>
         <SEO title="Discover Scuba Diving" />
+        <SEO description="Well your on your vacation in Punta Cana you can try scuba diving for the very first time."/>
             <DiscoverCarousel/>
             <div className="mx-5 text-center mt-4 dive-info">    
                 <h3 className='mb-2'><strong>Try Discover Scuba Diving</strong></h3>

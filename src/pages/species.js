@@ -1,7 +1,7 @@
 import React from 'react';
 import { fish } from '../fish';
 import Footer from '../components/Footer';
-
+import Helment from 'react-helmet'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -10,6 +10,9 @@ import Button from 'react-bootstrap/Button';
 function Species() {
     return (
         <>
+        <Helment>
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/species" />
+        </Helment>
         <Layout>
         <SEO title="Fishes of Punta Cana" />
             <div className="jumbotron">

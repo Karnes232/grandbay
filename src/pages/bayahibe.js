@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import BayahibeCarousel  from '../components/BayahibeCarousel';
 import Footer from '../components/Footer';
-
+import Helment from 'react-helmet'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -30,8 +30,12 @@ function Bayahibe() {
 
     return (
         <>
+        <Helment>
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/bayahibe" />
+        </Helment>
         <Layout>
-        <SEO title="Bayahive Diving" />
+        <SEO title="Bayahibe Diving" />
+        <SEO description="Bayahibe is just a short trip from Punta Cana offering some of the best scuba diving in the caribbean"/>
             <div class="catalina">
                 <div class="row">
                 <div class="col-sm-8 mb-3">

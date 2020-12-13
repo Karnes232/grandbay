@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import DiscoverCarousel  from '../components/DiscoverCarousel';
 import Footer from '../components/Footer';
-
+import Helment from 'react-helmet'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -30,8 +30,12 @@ function Advanced() {
 
     return (
         <>
+        <Helment>
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/advanced" />
+        </Helment>
         <Layout>
         <SEO title="Advanced Open Water" />
+        <SEO description="Well you are in Punta Cana you have the chance to complete your Advanced Open Water Dive certification"/>
             <DiscoverCarousel/>
             <div className="mx-5 text-center mt-4 dive-info">    
             <h3 className='mb-2'><strong>PADI Advanced Open Water Course</strong></h3>

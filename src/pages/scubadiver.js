@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import DiscoverCarousel  from '../components/DiscoverCarousel';
 import Footer from '../components/Footer';
-
+import Helment from 'react-helmet'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -30,8 +30,12 @@ function ScubaDiver() {
 
     return (
         <>
+        <Helment>
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/scubadiver" />
+        </Helment>
         <Layout>
         <SEO title="PADI Scuba Diver" />
+        <SEO description="The scuba diver course is the first level of certification, allowing you to dive with a professional."/>
             <DiscoverCarousel/>
             <div className="mx-5 text-center mt-4 dive-info">    
             <h3 className='mb-2'><strong>Padi Scuba Diver Course</strong></h3>
