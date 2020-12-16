@@ -45,7 +45,7 @@ const IndexPage = () => (
             <div className="seo-tags">
                 <h1><strong>punta cana diving</strong></h1>
             </div>
-            <h4><strong>Scuba Course</strong></h4>
+            <h4  className='trip-links'><strong>Scuba Courses</strong></h4>
             <img className='my-2' src={icon3} alt="Scuba Diving Punta Cana"/>
             <p className='mt-2'>Try diving for the first time, get certifed, or upgrade your certification</p>
             </Link>
@@ -56,7 +56,7 @@ const IndexPage = () => (
             <div className="seo-tags">
                 <h1><strong>punta cana dive sites</strong></h1>
             </div>
-            <h4><strong>Reef Diving</strong></h4>
+            <h4 className='trip-links'><strong>Reef Diving</strong></h4>
             <img className='my-2' src={icon1} alt="Scuba Diving Punta Cana"/>
             <p className='mt-2'>Dive for a day or more, and save on multiple dive packages</p>
             </Link>
@@ -67,7 +67,7 @@ const IndexPage = () => (
             <div className="seo-tags">
                 <h1>scuba punta cana</h1>
             </div>
-            <h4><strong>Day Trips</strong></h4>
+            <h4 className='trip-links'><strong>Day Trips</strong></h4>
             <img className='my-2' src="https://img.icons8.com/pastel-glyph/64/000000/route--v2.png" alt="Scuba Diving Punta Cana"/>
             <p className='mt-2'>Enjoy a day on the caribbean coast of the island, with its white sand and turquoise waters</p>
             </Link>

@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
-function TripCarousel() {
+function CatalinaCarousel() {
     return (
         <>
          <div class="carousel-wrapper-home">
@@ -29,25 +29,15 @@ function TripCarousel() {
                     <img src="https://i.ibb.co/HpdmSGf/saona1.jpg" alt="Scuba Diving Punta Cana Saona"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/74H9z0H/image5.jpg" alt="Scuba Diving Bavaro"/>
-                </div>
-                <div>
                     <img src="https://i.ibb.co/mtgX390/photo4.jpg" alt="Scuba Diving Bavaro"/>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/yWm1T65/20200122-144128.jpg" alt="Scuba Diving Bavaro"/>
                 </div>
-                <div>
-                    <img src="https://i.ibb.co/H7SJyLv/478bf545-6691-4485-8e37-66e39a67d3a7.jpg" alt="Scuba Diving Bavaro"/>
-                </div>
-                <div>
-                    <img src="https://i.ibb.co/Z69VFcZ/image7.jpg" alt="Scuba Diving Bavaro"/>
-                </div>
-                
             </Carousel>
         </div>   
         </>
     )
 }
 
-export default TripCarousel
+export default CatalinaCarousel

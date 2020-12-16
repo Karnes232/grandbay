@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light ">
-            <div className="container mx-5">
+            <div className="container mx-2">
                 <Link className="navbar-brand" to="/">
                     <img src={logo} alt="Grand Bay of the Sea Scuba Diving in Punta Cana"></img>
                 </Link>

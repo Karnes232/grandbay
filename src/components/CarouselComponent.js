@@ -24,8 +24,8 @@ export default function CarouselComponent() {
                 <div>
                     <img src="https://i.ibb.co/KDV5JVh/photo1.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
-                <div>
-                    <img src="https://i.ibb.co/zGdRhfx/image20.jpg" alt="Scuba Diving Punta Cana"/>
+                <div className='less-opacity'>
+                    <img src="https://i.ibb.co/3yBfF8S/DSC6729.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/j6g6xFj/image4.jpg" alt="Scuba Diving Punta Cana"/>
@@ -34,10 +34,10 @@ export default function CarouselComponent() {
                     <img className='girl-on-boat' src="https://i.ibb.co/wr8q9FL/girlboat2.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/Qbcr9y9/photo5.jpg" alt="Scuba Diving Punta Cana"/>
+                    <img src="https://i.ibb.co/jWF8sfz/20190320-145703.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
-                <div>
-                    <img src="https://i.ibb.co/Bs6txmm/ds3.jpg" alt="Scuba Diving Punta Cana"/>
+                <div className='less-opacity'>
+                    <img src="https://i.ibb.co/L1ZccfJ/DSC5389.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/6b7F4PR/photo7.jpg" alt="Scuba Diving Punta Cana"/>

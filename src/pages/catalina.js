@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import TripCarousel  from '../components/TripCarousel';
+import CatalinaCarousel  from '../components/CatalinaCarousel';
 import Footer from '../components/Footer';
 import Helment from 'react-helmet'
 import Layout from "../components/layout"
@@ -39,7 +39,7 @@ function Catalina() {
             <div class="catalina">
                 <div class="row">
                 <div class="col-sm-8 mb-3">
-                    <TripCarousel/> 
+                    <CatalinaCarousel/> 
                 </div>
                 <div class="container col-sm-4 my-auto">
                     <div class="well text-center">
