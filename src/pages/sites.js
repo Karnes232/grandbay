@@ -8,6 +8,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ModalPhotos from '../components/ModalPhotos'
 import Button from 'react-bootstrap/Button';
+import { motion } from 'framer-motion';
 
 function Sites() {
     const [selectedImg, setSelectedImg] = useState(null)
@@ -32,11 +33,15 @@ function Sites() {
                    <button className="btn btn-primary btn-block" data-toggle="modal" data-target="#dive-packages">Dive Packages</button>
                    <Modal />
                 </div>   
-                <div className="row mt-3">
+                <motion.div className="row mt-3"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1 }}
+                >
                     {divesites.map((divesite)=>{
                         return <DiveSite key={divesite.id} {...divesite} selectedImg={selectedImg} setSelectedImg={setSelectedImg}/>      
                     })}
-                </div>
+                </motion.div>
             </div>
             <div className="well d-flex justify-content-center my-3">
                 <Button href="/" size="sm">Back Home</Button>

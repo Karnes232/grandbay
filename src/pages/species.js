@@ -33,22 +33,22 @@ function Species() {
                     {fish.map((f)=>{
                         const {id, name, img} = f;
                         return (
-                            <div key={id} className="col-sm-4 col-md-3 mt-1">
+                            <motion.div key={id} className="col-sm-4 col-md-3 mt-1"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 1 }}
+                            >
                                 <div className="single-fish mt-0 p-0"
                                     onClick={() => setSelectedImg(img)}
                                     role="button"  
                                     tabIndex="0"  
                                     onKeyDown={() => setSelectedImg(img)}
                                 >
-                                <motion.img src={img} alt={name} className='border border-bottom-0 border-dark rounded-top'
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{ delay: 1 }}
-                                />
+                                <img src={img} alt={name} className='border border-bottom-0 border-dark rounded-top'/>
                                 </div>
                                 
                                 <h4 className='border border-top-0 border-dark rounded-bottom py-2'>{name}</h4>
-                            </div>
+                            </motion.div>
                         )                      
                     })}
                 </div>
