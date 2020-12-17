@@ -1,6 +1,6 @@
 import React from 'react'
 import { GiScubaTanks } from 'react-icons/gi';
-import AboutImg from '../images/franklin.png'
+import AboutImg from '../images/franklin_aboutus2.jpg'
 import AboutImg2 from '../images/franklin3.png'
 import Footer from '../components/Footer';
 import { SiFacebook, SiInstagram, SiTwitter } from 'react-icons/si';
@@ -28,10 +28,10 @@ function About() {
                     </div>
                     <div className="col-md-3 col-sm-12 col-xs-12">
                         <div className="aboutus-banner about-large text-center">
-                            <img className='mb-3' src={AboutImg2} alt=""/>
+                            <img className='mb-3' src={AboutImg2} alt="Our Instructor"/>
                         </div>
-                        <div className="aboutus-banner about-small">
-                            <img className='mb-3 rounded mx-auto d-block' src={AboutImg} alt=""/>
+                        <div className="aboutus-banner about-small mt-3">
+                            <img className='mb-3 rounded mx-auto d-block' src="https://i.ibb.co/ygvLm8N/franklin-aboutus2.jpg" alt="Our Instructor"/>
                         </div>
                     </div>
                     <div className="col-md-5 col-sm-12 col-xs-12">

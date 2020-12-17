@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { divesites } from '../divesites';
 import DiveSite from '../components/DiveSite';
 import Modal from '../components/Modal'
@@ -6,10 +6,11 @@ import Footer from '../components/Footer';
 import Helment from 'react-helmet'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import ModalPhotos from '../components/ModalPhotos'
 import Button from 'react-bootstrap/Button';
 
 function Sites() {
+    const [selectedImg, setSelectedImg] = useState(null)
     return (
         <>
         <Helment>
@@ -33,13 +34,14 @@ function Sites() {
                 </div>   
                 <div className="row mt-3">
                     {divesites.map((divesite)=>{
-                        return <DiveSite key={divesite.id} {...divesite} />      
+                        return <DiveSite key={divesite.id} {...divesite} selectedImg={selectedImg} setSelectedImg={setSelectedImg}/>      
                     })}
                 </div>
             </div>
             <div className="well d-flex justify-content-center my-3">
                 <Button href="/" size="sm">Back Home</Button>
             </div>
+            { selectedImg && <ModalPhotos selectedImg={selectedImg} setSelectedImg={setSelectedImg}/>}
             <Footer/>
             </Layout>
         </>

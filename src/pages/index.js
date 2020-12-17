@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import CarouselComponent from '../components/CarouselComponent'
-
 import Footer from '../components/Footer';
 import icon1 from '../images/icons8-clown-fish-48.png';
 import icon3 from '../images/icons8-scuba-diving-team-64.png';
