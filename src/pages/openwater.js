@@ -50,7 +50,7 @@ function OpenWater() {
                 <div className="well">
                     <h3>Course Overview</h3>
                     <p className='my-1'>Course Level: Beginner</p>
-                    <p className='my-1'>Price: $400 per person</p>
+                    <p className='my-1'>Price: $450 per person</p>
                     <p className='my-1'>Duration: 6 - 2.5 Hours sessions</p>
                     <p>Includes: Transport</p>
                     <p className='my-1'>Over 3 days</p>
