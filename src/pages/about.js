@@ -1,6 +1,6 @@
 import React from 'react'
 import { GiScubaTanks } from 'react-icons/gi';
-import AboutImg from '../images/franklin_aboutus2.jpg'
+
 import AboutImg2 from '../images/franklin3.png'
 import Footer from '../components/Footer';
 import { SiFacebook, SiInstagram, SiTwitter } from 'react-icons/si';
