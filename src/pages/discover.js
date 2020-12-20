@@ -21,7 +21,7 @@ function Discover() {
         layout: 'horizontal',
         label: 'paypal',
       }}
-      amount={45.00}
+      amount={42.50}
       currency="USD"
       shippingPreference="NO_SHIPPING"
       onApprove={ (data, actions) => setPaidFor(true) }
@@ -71,7 +71,7 @@ function Discover() {
                 </div>
                 <div className="col-sm-4 d-flex align-items-center">
                     <div className="well">
-                        <p>This is a one-day PADI program that offers you the experience of Scuba diving fromt 6 to a maximum of 12 meters, although it does not result in a certification, it can be credited as your first open water dive towards your PADI open water certification. This program is perfect for people who are interested in finding out what it is like to breath underwater and experience the underwater world.</p>
+                        <p>This is a one-day PADI program that offers you the experience of Scuba diving from 6 to a maximum of 12 meters, although it does not result in a certification, it can be credited as your first open water dive towards your PADI open water certification. This program is perfect for people who are interested in finding out what it is like to breath underwater and experience the underwater world.</p>
                     </div>
                     
                 </div>
