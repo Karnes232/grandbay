@@ -47,9 +47,9 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className="nav-item active">
-                    <a className='nav-link' href="mailto:grandbayofthesea@gmail.com" aria-label="Gmail">
+                    <Link className="nav-link" to="/contact">
                         Contact Us
-                    </a>
+                    </Link>
                 </li>
                 </ul>
             </div>
