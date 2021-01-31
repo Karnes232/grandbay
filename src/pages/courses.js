@@ -13,8 +13,7 @@ function Courses() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/courses" />
         </Helment>
         <Layout>
-        <SEO title="PADI Courses" />
-        <SEO description="We offer many different scuba diving courses to help you gain experience well you are on vacation in Punta Cana"/>
+        <SEO title="PADI Courses" description="We offer many different scuba diving courses to help you gain experience well you are on vacation in Punta Cana"/>
             <div className="mx-5 mt-5">
                 <div className="row">
                     <div className="col-sm-8 d-flex justify-content-center mb-1">

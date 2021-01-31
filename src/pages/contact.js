@@ -8,7 +8,7 @@ function contact() {
     return (
         <>
         <Layout>
-        <SEO title="Contact" />
+        <SEO title="Contact Us" />
             <div className="container">
                 <Grid container spacing={1}>
                     <ContactComponent />
