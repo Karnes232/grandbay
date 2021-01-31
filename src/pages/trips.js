@@ -16,8 +16,8 @@ function Trips() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/trips" />
         </Helment>
         <Layout>
-        <SEO title="Dive Trips" />
-        <SEO description="Some of the best scuba diving in the Dominican Republic is on the caribbean coast. We offer day trips to Catalina, Bayahibe and Saona."/>
+        <SEO title="Dive Trips" description="Some of the best scuba diving in the Dominican Republic is on the caribbean coast. We offer day trips to Catalina, Bayahibe and Saona."/>
+
             <TripCarousel/> 
             <div className="mx-5 text-center mt-4 dive-info">
                 <h5 className='mb-2'><strong>The Caribbean Sea and thriving reefs will have divers exploring the shallow reefs, or the deeper wrecks.</strong></h5>

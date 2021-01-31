@@ -34,8 +34,7 @@ function Saona() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/saona" />
         </Helment>
         <Layout>
-        <SEO title="Saona Diving" />
-        <SEO description="Saona Island is just a short trip from Punta Cana offering some of the best scuba diving in the caribbean"/>
+        <SEO title="Saona Diving" description="Saona Island is just a short trip from Punta Cana offering some of the best scuba diving in the caribbean" />
             <div className="catalina">
                 <div className="row">
                 <div className="col-sm-8 mb-3">

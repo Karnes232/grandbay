@@ -34,8 +34,7 @@ function ScubaDiver() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/scubadiver" />
         </Helment>
         <Layout>
-        <SEO title="PADI Scuba Diver" />
-        <SEO description="The scuba diver course is the first level of certification, allowing you to dive with a professional."/>
+        <SEO title="PADI Scuba Diver" description="The scuba diver course is the first level of certification, allowing you to dive with a professional." />
             <DiscoverCarousel/>
             <div className="mx-5 text-center mt-4 dive-info">    
             <h3 className='mb-2'><strong>Padi Scuba Diver Course</strong></h3>

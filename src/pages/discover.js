@@ -34,8 +34,7 @@ function Discover() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/discover" />
         </Helment>
         <Layout>
-        <SEO title="Discover Scuba Diving" />
-        <SEO description="Well your on your vacation in Punta Cana you can try scuba diving for the very first time."/>
+        <SEO title="Discover Scuba Diving" description="Well your on your vacation in Punta Cana you can try scuba diving for the very first time." />
             <DiscoverCarousel/>
             <div className="mx-5 text-center mt-4 dive-info">    
                 <h3 className='mb-2'><strong>Try Discover Scuba Diving</strong></h3>

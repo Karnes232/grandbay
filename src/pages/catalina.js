@@ -34,8 +34,7 @@ function Catalina() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/catalina" />
         </Helment>
         <Layout>
-        <SEO title="Catalina Diving" />
-        <SEO description="Catalina Island is just a short trip from Punta Cana offering some of the best scuba diving in the caribbean"/>
+        <SEO title="Catalina Diving" description="Catalina Island is just a short trip from Punta Cana offering some of the best scuba diving in the caribbean"/>
             <div class="catalina">
                 <div class="row">
                 <div class="col-sm-8 mb-3">
