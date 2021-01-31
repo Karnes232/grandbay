@@ -1,0 +1,52 @@
+.videoWrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+  }
+  
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .course-list-small-screen .legend {
+    font-size: 100px;
+  }
+  
+  .course-list-small-screen h4 {
+    color: rgb(65, 65, 255);
+    text-decoration: underline;
+    -webkit-text-decoration-color:  rgb(65, 65, 255);
+    text-decoration-color:  rgb(65, 65, 255);
+  }
+  
+  #diveCourses .carousel-control-prev {
+    display: none;
+  }
+  
+  #diveCourses .carousel-control-next {
+    display: none;
+  }
+
+
+#diveCourses img {
+  height: 35vw;
+}
+
+#diveCourses .carousel-indicators li {
+  background-color: #999;
+
+}
+
+#diveCourses .carousel-indicators .active {
+  background-color: #444;
+}
+
+.dive-course-info {
+  height: 45vw;
+}

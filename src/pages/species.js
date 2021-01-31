@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import { motion } from 'framer-motion';
 import Button from 'react-bootstrap/Button';
 import ModalPhotos from '../components/ModalPhotos'
-
+import '../styles/species.css'
 function Species() {
 
     const [selectedImg, setSelectedImg] = useState(null)

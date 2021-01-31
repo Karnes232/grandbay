@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 import ModalPhotos from '../components/ModalPhotos'
 import Button from 'react-bootstrap/Button';
 import { motion } from 'framer-motion';
+import '../styles/divesite.css'
 
 function Sites() {
     const [selectedImg, setSelectedImg] = useState(null)

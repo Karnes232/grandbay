@@ -1,0 +1,27 @@
+.hero {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    top: -42vw;
+    height: 10px;
+  }
+
+.hero h1 {
+  color: white;
+  font-family: 'Yellowtail', cursive;
+}
+
+.hero h2 {
+  color: white;
+  font-family: 'Yellowtail', cursive;
+}
+
+.hero h3 {
+  color: white;
+  font-family: 'Yellowtail', cursive;
+}
+
+.index-sections img {
+    height: 64px;
+  }
+  

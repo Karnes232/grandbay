@@ -25,11 +25,6 @@ a:hover, a:active {
   
 }
 
-
-.navbar-brand img {
-  height: 60px;
-}
-
 .underline {
   height: 0.25rem;
   width: 5rem;
@@ -51,53 +46,6 @@ a:hover, a:active {
     opacity:0.6;
   }
 
-
-
-.hero {
-  margin: auto;
-  width: 100%;
-  position: relative;
-  top: -42vw;
-  height: 10px;
-}
-
-.hero h1 {
-  color: white;
-  font-family: 'Yellowtail', cursive;
-}
-
-.hero h2 {
-  color: white;
-  font-family: 'Yellowtail', cursive;
-}
-
-.hero h3 {
-  color: white;
-  font-family: 'Yellowtail', cursive;
-}
-
-.index-sections img {
-  height: 64px;
-}
-
-
-.videoWrapper {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; 
-}
-
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
 #dive-slide li {
   background: white;
 }
@@ -117,16 +65,6 @@ a:hover, a:active {
   opacity: 0.9;
 }
 
-.course-list-small-screen .legend {
-  font-size: 100px;
-}
-
-.course-list-small-screen h4 {
-  color: rgb(65, 65, 255);
-  text-decoration: underline;
-  -webkit-text-decoration-color:  rgb(65, 65, 255);
-  text-decoration-color:  rgb(65, 65, 255);
-}
 
 .trip-links {
   color: rgb(65, 65, 255);
@@ -135,167 +73,6 @@ a:hover, a:active {
   text-decoration-color:  rgb(65, 65, 255);
 }
 
-#diveCourses img {
-  height: 35vw;
-}
-
-#diveCourses .carousel-indicators li {
-  background-color: #999;
-
-}
-
-#diveCourses .carousel-indicators .active {
-  background-color: #444;
-}
-
-#diveCourses .carousel-control-prev {
-  display: none;
-}
-
-#diveCourses .carousel-control-next {
-  display: none;
-}
-
-.dive-course-info {
-  height: 45vw;
-}
-
-.aboutus-section {
-    padding: 0px 0;
-}
-.aboutus-title {
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: 32px;
-    margin: 0 0 39px;
-    padding: 0 0 11px;
-    position: relative;
-    text-transform: uppercase;
-    color: #000;
-}
-.aboutus-title::after {
-    background: #222222 none repeat scroll 0 0;
-    bottom: 0;
-    content: "";
-    height: 2px;
-    left: 0;
-    position: absolute;
-    width: 54px;
-}
-.aboutus-text {
-    
-    font-size: 13px;
-    line-height: 22px;
-    margin: 0 0;
-  }
-
-
-.aboutus-banner img {
-  height: 30vh;
-}
-
-.about-small img {
-  height: 40vh;
-}
-
-.about-large {
-  display: none;
-}
-
-.aboutus-section a {
-  color:  hsl(205, 78%, 60%);
-}
-
-.feature .feature-box .iconset {
-    background: #fff none repeat scroll 0 0;
-    float: left;
-    position: relative;
-    width: 18%;
-}
-.feature .feature-box .iconset::after {
-    background: #606060 none repeat scroll 0 0;
-    content: "";
-    height: 140%;
-    left: 43%;
-    position: absolute;
-    top: 100%;
-    width: 1px;
-    z-index: -1;
-}
-
-.feature .feature-box .feature-content h4 {
-    color: #0f0f0f;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 22px;
-    margin: 0 0 5px;
-}
-
-
-.feature .feature-box .feature-content {
-    float: left;
-    padding-left: 28px;
-    width: 78%;
-}
-.feature .feature-box .feature-content h4 {
-    color: #0f0f0f;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 22px;
-    margin: 0 0 5px;
-}
-.feature .feature-box .feature-content p {
-    color: #606060;
-    font-size: 13px;
-    line-height: 22px;
-}
-.icon {
-    color : #606060;
-    padding:0px;
-    font-size:40px;
-    border: 1px solid #606060;
-    border-radius: 100px;
-    color: #606060;
-    font-size: 28px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    width: 70px;
-}
-
-
-.jumbotron {
-  position:relative;
-  overflow:hidden;
-  padding-left: 0;
-  padding-right: 0;
-  background: black;
-
-}
-
-.jumbotron .container {
-  position:relative;
-  z-index:2;
-  padding:2rem;
-  color: white;
-  font-family: 'Yellowtail', cursive;
-}
-
-.jumbotron-background {
-  object-fit:cover;
-  font-family: 'object-fit: cover;';
-  position:absolute;
-  top:0;
-  z-index:1;
-  width:100%;
-  height:100%;
-  opacity:0.6;
-}
-
-
-.jumbotron-background img {
-  width:100%;
-}
 
 .backdrop{
   position: fixed;
@@ -313,21 +90,6 @@ a:hover, a:active {
   margin: 60px auto;
   box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
   border: 3px solid white;
-}
-
-.fish-id img {
-  width: 100%;
-  
-}
-
-.dive-site-info button {
-  background: transparent;
-  border-color: transparent;
-  text-transform: capitalize;
-  color: hsl(205, 78%, 60%);
-  font-size: 1rem;
-  cursor: pointer;
-  padding-left: 0.25rem;
 }
 
 .contact-link a {
@@ -352,12 +114,6 @@ a:hover, a:active {
 {
  #dive-slide {
    display: none;
- }
- .fish-id img {
-   height: 20vw;
- }
- .dive-site-info img {
-   height: 30vw;
  }
 
  #scuba-diver-info-small {
@@ -384,12 +140,6 @@ a:hover, a:active {
    font-size: 0.7rem;
  }
 
- .aboutus-banner img {
-  height: 80vh;
-}
-.feature .feature-box .iconset::after {
-  height: 10%;
-}
 
 @media screen and (min-width:1280px)
 {
@@ -418,13 +168,6 @@ a:hover, a:active {
   .dive-site-info h6 {
     font-size: 2rem;
   }
-
-  .about-page-footer {
-    position: absolute;
-    top: 91vh;
-    width: 100%;
-  }
-
 }
 
 }
@@ -438,13 +181,6 @@ a:hover, a:active {
    font-size: 2.5rem;
  }
 
- .about-small {
-   display: none;
- }
- .about-large {
-   display: block;
-   margin-left: 0;
- }
 }
 
 @media screen and (max-width:639px){
@@ -465,18 +201,14 @@ a:hover, a:active {
 }
 
 @media screen and (max-width:740px){
-  .aboutus-banner img {
-    margin-left: 15%;
-  }
+  
   .dive-info img {
     height: 10vw;
   }
 }
 
 @media screen and (max-width:415px){
-  .aboutus-banner img {
-    margin-left: 10%;
-  }
+  
   .dive-info img {
     height: 15vw;
   }
@@ -486,41 +218,12 @@ a:hover, a:active {
 
 }
 
-@media screen and (min-width:768px) and (min-height: 1024px) {
-  .aboutus-banner img {
-    height: 30vh;
-  }
-}
-
 @media screen and (min-width:1024px) {
-  .aboutus-section {
-    margin-top: 10vh;
-  }
+  
   .page-footer {
     
     position: absolute;
     width: 100%;
-  }
-  .aboutus-banner img {
-    height: 50vh;
-  }
-}
-
-@media screen and (min-width:1024px) and (min-height:1360px) {
-  .aboutus-banner img {
-    height: 30vh;
-  }
-}
-
-
-
-@media screen and (max-width:1024px) and (max-height: 768px) and (min-width:1024px) {
-  .aboutus-banner img {
-    height: 40vh;
-  }
-  
-  .aboutus-section {
-    margin-top: 10vh;
   }
 }
 
@@ -538,26 +241,11 @@ a:hover, a:active {
 }
 
 @media screen and (min-width:1900px) {
-  
 
-  .navbar-brand img {
-    height: 90px;
-  }
-
-  .nav-item a {
-    font-size: 1.3rem;
-  }
-
-  .aboutus-banner img {
-    height: 40vh;
-  }
   .page-footer {
     
     position: absolute;
     width: 100%;
-  }
-  .aboutus-section {
-    margin-top: 10vh;
   }
 }
 
@@ -566,44 +254,4 @@ a:hover, a:active {
   p {
     font-size: 2rem;
   }
-
-  .aboutus-text {
-    font-size: 1.5rem;
-    line-height: 1.4;
-  }
-  .feature .feature-box .feature-content p{
-    font-size: 1.5rem;
-    line-height: 1.5;
-  }
-
-  .feature .feature-box .feature-content h4{
-    font-size: 1.5rem;
-    line-height: 1.5;
-  }
-
-  .about-large img {
-    height: 50vh;
-  }
-
-  .aboutus-container {
-    margin-left: 10%;
-  }
-
-  .aboutus-container .row {
-    width: 90%;
-  }
-
-  .aboutus {
-    width: 20vw;
-  }
-
-  .aboutus-banner {
-    margin-left: 250px;
-  }
-
-  .feature {
-    margin-left: 400px;
-    width: 450px;
-  }
-
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import logosmaller from '../images/logo-smaller.png'
 import { Link } from 'gatsby'
+import '../styles/nav.css'
 
 function Navbar() {
     return (

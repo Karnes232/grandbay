@@ -1,0 +1,228 @@
+.aboutus-section {
+    padding: 0px 0;
+}
+.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+}
+.aboutus-title::after {
+    background: #222222 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0;
+  }
+
+
+.aboutus-banner img {
+  height: 30vh;
+}
+
+.about-small img {
+  height: 40vh;
+}
+
+.about-large {
+  display: none;
+}
+
+.aboutus-section a {
+  color:  hsl(205, 78%, 60%);
+}
+
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+.feature .feature-box .iconset::after {
+    background: #606060 none repeat scroll 0 0;
+    content: "";
+    height: 140%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+    z-index: -1;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+}
+.icon {
+    color : #606060;
+    padding:0px;
+    font-size:40px;
+    border: 1px solid #606060;
+    border-radius: 100px;
+    color: #606060;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+
+@media screen and (min-width:640px)
+{
+    .aboutus-banner img {
+        height: 80vh;
+      }
+      .feature .feature-box .iconset::after {
+        height: 10%;
+      }
+}
+
+@media screen and (min-width:1800px)
+{
+    .about-page-footer {
+      position: absolute;
+      top: 91vh;
+      width: 100%;
+    } 
+}
+
+@media screen and (min-width:768px)
+{
+    .about-small {
+        display: none;
+      }
+      .about-large {
+        display: block;
+        margin-left: 0;
+      }
+}
+
+@media screen and (max-width:740px){
+    .aboutus-banner img {
+        margin-left: 15%;
+      }
+}
+
+@media screen and (max-width:415px){
+    .aboutus-banner img {
+        margin-left: 10%;
+      }
+}
+@media screen and (min-width:768px) and (min-height: 1024px) {
+    .aboutus-banner img {
+      height: 30vh;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .aboutus-section {
+        margin-top: 10vh;
+      }
+    .aboutus-banner img {
+      height: 50vh;
+    }
+  }
+
+  @media screen and (min-width:1024px) and (min-height:1360px) {
+    .aboutus-banner img {
+      height: 30vh;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width:1024px) and (max-height: 768px) and (min-width:1024px) {
+    .aboutus-banner img {
+      height: 40vh;
+    }
+    
+    .aboutus-section {
+      margin-top: 10vh;
+    }
+  }
+
+  @media screen and (min-width:1900px) {
+  
+    .aboutus-banner img {
+      height: 40vh;
+    }
+    .aboutus-section {
+      margin-top: 10vh;
+    }
+
+  .aboutus-text {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  .feature .feature-box .feature-content p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .feature .feature-box .feature-content h4{
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .about-large img {
+    height: 50vh;
+  }
+
+  .aboutus-container {
+    margin-left: 10%;
+  }
+
+  .aboutus-container .row {
+    width: 90%;
+  }
+
+  .aboutus {
+    width: 20vw;
+  }
+
+  .aboutus-banner {
+    margin-left: 250px;
+  }
+
+  .feature {
+    margin-left: 400px;
+    width: 450px;
+  }
+
+  }
+
+  

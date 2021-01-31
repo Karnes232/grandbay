@@ -1,0 +1,13 @@
+.navbar-brand img {
+    height: 60px;
+  }
+
+  @media screen and (min-width:1900px) {
+    .navbar-brand img {
+      height: 90px;
+    }
+    
+    .nav-item a {
+      font-size: 1.3rem;
+    }
+  }

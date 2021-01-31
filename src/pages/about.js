@@ -7,6 +7,7 @@ import { SiFacebook, SiInstagram, SiTwitter } from 'react-icons/si';
 import Helment from 'react-helmet'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import '../styles/about.css'
 
 function About() {
     return (
