@@ -22,7 +22,7 @@ export default function CarouselComponent() {
                     <img src="https://i.ibb.co/tMD2302/cat3.jpg" srcset="https://i.ibb.co/JxDx0cj/cat3-small.jpg 480w, https://i.ibb.co/tMD2302/cat3.jpg 1080w" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/D8thp31/photo1.jpg" srcset="https://i.ibb.co/MpXT2Xm/photo1-small.jpg 480w, https://i.ibb.co/D8thp31/photo1.jpg 1080w" alt="Scuba Diving Punta Cana"/>
+                    <img src="https://i.ibb.co/D8thp31/photo1.jpg" srcset="https://i.ibb.co/MpXT2Xm/photo1-small.jpg 480w, https://i.ibb.co/D8thp31/photo1.jpg 1080w" sizes="50vw" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div className='less-opacity'>
                     <img src="https://i.ibb.co/8XxBVMj/DSC6729.jpg" alt="Scuba Diving Punta Cana"/>
