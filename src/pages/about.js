@@ -31,7 +31,7 @@ function About() {
                             <img className='mb-3' src={AboutImg2} alt="Our Instructor"/>
                         </div>
                         <div className="aboutus-banner about-small mt-3">
-                            <img className='mb-3 rounded mx-auto d-block' src="https://i.ibb.co/ygvLm8N/franklin-aboutus2.jpg" alt="Our Instructor"/>
+                            <img className='mb-3 rounded mx-auto d-block' src="https://i.ibb.co/fkCx3L6/franklin-aboutus2.jpg" alt="Our Instructor"/>
                         </div>
                     </div>
                     <div className="col-md-5 col-sm-12 col-xs-12">

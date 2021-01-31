@@ -17,19 +17,19 @@ function SaonaCarousel() {
                 showStatus={false}
             >
                 <div>
-                    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/DominicanRepublic-Saona-Island-3-1600x965.jpg/1024px-DominicanRepublic-Saona-Island-3-1600x965.jpg' alt="Scuba Diving Punta Cana"/>
+                    <img src='https://i.ibb.co/99b1D4z/1024px-Dominican-Republic-Saona-Island-3-1600x965.jpg' alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img src='https://upload.wikimedia.org/wikipedia/commons/8/83/SAONA_ISLAND_-_panoramio.jpg' alt="Scuba Diving Punta Cana Catalina"/>
+                    <img src='https://i.ibb.co/84VxCZz/SAONA-ISLAND-panoramio.jpg' alt="Scuba Diving Punta Cana Catalina"/>
                 </div>
                 <div>
-                    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Beachfront_houses_Saona_Island.jpg/1024px-Beachfront_houses_Saona_Island.jpg' alt="Scuba Diving Punta Cana Bayahibe"/>
+                    <img src='https://i.ibb.co/Qf2NwVZ/Beachfront-houses-Saona-Island.jpg' alt="Scuba Diving Punta Cana Bayahibe"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/HpdmSGf/saona1.jpg" alt="Scuba Diving Punta Cana Saona"/>
+                    <img src="https://i.ibb.co/0FmgFhD/saona1.jpg" alt="Scuba Diving Punta Cana Saona"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/mtgX390/photo4.jpg" alt="Scuba Diving Bavaro"/>
+                    <img src="https://i.ibb.co/Q9CX8K7/photo4.jpg" alt="Scuba Diving Bavaro"/>
                 </div>
             </Carousel>
         </div>   

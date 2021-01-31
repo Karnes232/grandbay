@@ -17,19 +17,19 @@ function DiscoverCarousel() {
                 showStatus={false}
             >
                 <div>
-                    <img src="https://i.ibb.co/0cdrrdf/ds1.jpg" alt="Discover Scuba Diving Punta Cana"/>
+                    <img src="https://i.ibb.co/vdRhh9S/ds1.jpg" alt="Discover Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/nQDyXk6/image12.jpg" alt="Introduction to Scuba Diving Punta Cana"/>
+                    <img src="https://i.ibb.co/3vsmJ6X/image12.jpg" alt="Introduction to Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/QnWtcKy/image25.jpg" alt="Punta Cana Scuba Diving"/>
+                    <img src="https://i.ibb.co/cX4jwpp/image25.jpg" alt="Punta Cana Scuba Diving"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/28v1GR4/image10.jpg" alt="Open Water Diver Punta Cana"/>
+                    <img src="https://i.ibb.co/kKpNG0P/image10.jpg" alt="Open Water Diver Punta Cana"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/z7Bz5Mm/ds5.jpg" alt="PADI Punta Cana"/>
+                    <img src="https://i.ibb.co/0CQx6mk/ds5.jpg" alt="PADI Punta Cana"/>
                 </div>
             </Carousel>
         </div>   

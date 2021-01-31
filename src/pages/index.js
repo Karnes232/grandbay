@@ -35,7 +35,7 @@ const IndexPage = () => (
                 <h1><strong>Scuba Diving in Punta Cana</strong></h1>
             </div>
             <h4> <strong>Explore a Whole New World!</strong> </h4>
-            <p>Join us on the reefs around Punta Cana and surronding area. You will find a great variety of dive sites from shallow coral reefs, wrecks, caves and canyons habited by turtles.</p>   
+            <p>Join us on the reefs around Punta Cana and surrounding  area. You will find a great variety of dive sites from shallow coral reefs, wrecks, caves and canyons habited by turtles.</p>   
         </div>
 
         <div className="row mx-5">
@@ -46,7 +46,7 @@ const IndexPage = () => (
             </div>
             <h4  className='trip-links'><strong>Scuba Courses</strong></h4>
             <img className='my-2' src={icon3} alt="Scuba Diving Punta Cana"/>
-            <p className='mt-2'>Try diving for the first time, get certifed, or upgrade your certification</p>
+            <p className='mt-2'>Try diving for the first time, get certified, or upgrade your certification</p>
             </Link>
         </div>
 

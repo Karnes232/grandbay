@@ -17,22 +17,22 @@ function CatalinaCarousel() {
                 showStatus={false}
             >
                 <div>
-                    <img src="https://i.ibb.co/FsXpGCp/cat1.jpg" alt="Scuba Diving Punta Cana"/>
+                    <img src="https://i.ibb.co/HNSBdLP/cat1.jpg" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/VM0y4KP/cat2.jpg" alt="Scuba Diving Punta Cana Catalina"/>
+                    <img src="https://i.ibb.co/Yyv8ZNY/cat2.jpg" alt="Scuba Diving Punta Cana Catalina"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/N6MX9q6/cat3.jpg" alt="Scuba Diving Punta Cana Bayahibe"/>
+                    <img src="https://i.ibb.co/tMD2302/cat3.jpg" alt="Scuba Diving Punta Cana Bayahibe"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/HpdmSGf/saona1.jpg" alt="Scuba Diving Punta Cana Saona"/>
+                    <img src="https://i.ibb.co/0FmgFhD/saona1.jpg" alt="Scuba Diving Punta Cana Saona"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/mtgX390/photo4.jpg" alt="Scuba Diving Bavaro"/>
+                    <img src="https://i.ibb.co/Q9CX8K7/photo4.jpg" alt="Scuba Diving Bavaro"/>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/yWm1T65/20200122-144128.jpg" alt="Scuba Diving Bavaro"/>
+                    <img src="https://i.ibb.co/QJr0mKW/20200122-144128.jpg" alt="Scuba Diving Bavaro"/>
                 </div>
             </Carousel>
         </div>   
