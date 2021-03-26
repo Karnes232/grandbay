@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Grid from '@material-ui/core/Grid';
 import ContactComponent from '../components/ContactComponent'
+import Footer from '../components/Footer';
 
 function contact() {
     return (
@@ -14,6 +15,7 @@ function contact() {
                     <ContactComponent />
                 </Grid>
             </div>
+            <Footer/> 
         </Layout>   
         </>
     )

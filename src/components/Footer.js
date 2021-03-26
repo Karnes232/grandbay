@@ -9,7 +9,7 @@ function Footer() {
         <>
     
         <footer className="page-footer p-1 bg-dark text-white mt-2">
-            <div className="container text-center w-75 p-1 mx-auto">
+            <div className="container text-center w-75 p-1 mx-auto footer-text">
                 <div className="row">
                     <div className="col-md-12 col-sm-12 col-xs-12">
                         <p className="copyright-text">Copyright &copy; 2020 
