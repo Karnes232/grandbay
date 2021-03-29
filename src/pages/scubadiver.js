@@ -21,7 +21,7 @@ function ScubaDiver() {
         layout: 'horizontal',
         label: 'paypal',
       }}
-      amount={170.00}
+      amount={150.00}
       currency="USD"
       shippingPreference="NO_SHIPPING"
       onApprove={ (data, actions) => setPaidFor(true) }
@@ -49,7 +49,7 @@ function ScubaDiver() {
                 <div className="well">
                     <h3>Course Overview</h3>
                     <p className='my-1'>Course Level: Beginner</p>
-                    <p className='my-1'>Price: $340 per person</p>
+                    <p className='my-1'>Price: $300 per person</p>
                     <p className='my-1'>Duration: 4 - 2.5 Hours sessions</p>
                     <p>Includes: Transport</p>
                     <p className='my-1'>Over 2 days</p>
