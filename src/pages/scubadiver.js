@@ -26,7 +26,12 @@ function ScubaDiver() {
       amount={1.00}
       currency="USD"
       shippingPreference="NO_SHIPPING"
-      onApprove={ (data, actions) => setPaidFor(true) }
+      onApprove={ (data, actions) => {
+          setPaidFor(true)
+          console.log(data)
+          console.log(actions)
+        }
+        }
     />
     )
 
