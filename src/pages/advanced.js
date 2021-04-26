@@ -13,6 +13,8 @@ function Advanced() {
 
     const [paidFor, setPaidFor] = useState(false);
 
+    const cost = 180
+
     const PaypalButton = () => (
     <Paypal 
       style={{
@@ -21,7 +23,7 @@ function Advanced() {
         layout: 'horizontal',
         label: 'paypal',
       }}
-      amount={180.00}
+      amount={1.00}
       currency="USD"
       shippingPreference="NO_SHIPPING"
       onApprove={ (data, actions) => setPaidFor(true) }

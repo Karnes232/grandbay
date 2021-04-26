@@ -13,6 +13,8 @@ function ScubaDiver() {
 
     const [paidFor, setPaidFor] = useState(false);
 
+    const cost = 150
+
     const PaypalButton = () => (
     <Paypal 
       style={{
@@ -21,7 +23,7 @@ function ScubaDiver() {
         layout: 'horizontal',
         label: 'paypal',
       }}
-      amount={150.00}
+      amount={1.00}
       currency="USD"
       shippingPreference="NO_SHIPPING"
       onApprove={ (data, actions) => setPaidFor(true) }

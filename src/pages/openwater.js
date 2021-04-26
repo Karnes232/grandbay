@@ -13,6 +13,8 @@ function OpenWater() {
 
     const [paidFor, setPaidFor] = useState(false);
 
+    const cost = 200
+
     const PaypalButton = () => (
     <Paypal 
       style={{
@@ -21,7 +23,7 @@ function OpenWater() {
         layout: 'horizontal',
         label: 'paypal',
       }}
-      amount={200.00}
+      amount={1.00}
       currency="USD"
       shippingPreference="NO_SHIPPING"
       onApprove={ (data, actions) => setPaidFor(true) }

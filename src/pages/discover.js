@@ -13,6 +13,8 @@ function Discover() {
 
     const [paidFor, setPaidFor] = useState(false);
 
+    const cost = 42.50
+
     const PaypalButton = () => (
     <Paypal 
       style={{
@@ -21,7 +23,7 @@ function Discover() {
         layout: 'horizontal',
         label: 'paypal',
       }}
-      amount={42.50}
+      amount={1.00}
       currency="USD"
       shippingPreference="NO_SHIPPING"
       onApprove={ (data, actions) => setPaidFor(true) }

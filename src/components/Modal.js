@@ -6,6 +6,8 @@ function Modal() {
 
     const [paidFor, setPaidFor] = useState(false);
 
+    const cost = 50
+
     const PaypalButton = () => (
     <Paypal 
       style={{
@@ -14,7 +16,7 @@ function Modal() {
         layout: 'horizontal',
         label: 'paypal',
       }}
-      amount={50.00}
+      amount={1.00}
       currency="USD"
       shippingPreference="NO_SHIPPING"
       onApprove={ (data, actions) => setPaidFor(true) }
