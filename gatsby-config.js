@@ -11,13 +11,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    {
-      resolve: `gatsby-plugin-paypal`,
-      options: {
-        clientId: `AaPiNuBE-3bjn86CtDSbnbs5nnaeQ-vNhBk48DdMwZ0vsUYGVuE1_38burybKxv_Qn78gXQYUSKf1UG0`,
-        currency: `USD` 
-      }
-    },
+    
     {
             resolve: `gatsby-plugin-google-fonts`,
             options: {

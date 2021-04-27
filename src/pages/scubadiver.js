@@ -7,33 +7,12 @@ import SEO from "../components/seo"
 
 import Button from 'react-bootstrap/Button';
 
-import Paypal from "gatsby-plugin-paypal"
+
+import { PayPalButton } from "react-paypal-button-v2";
 
 function ScubaDiver() {
 
     const [paidFor, setPaidFor] = useState(false);
-
-    const cost = 150
-
-    const PaypalButton = () => (
-    <Paypal 
-      style={{
-        shape: 'rect',
-        color: 'blue',
-        layout: 'horizontal',
-        label: 'paypal',
-      }}
-      amount={1.00}
-      currency="USD"
-      shippingPreference="NO_SHIPPING"
-      onApprove={ (data, actions) => {
-          setPaidFor(true)
-          console.log(data)
-          console.log(actions)
-        }
-        }
-    />
-    )
 
     return (
         <>
@@ -71,7 +50,24 @@ function ScubaDiver() {
                     </div>
                 ) : (
                     <div className="well d-flex justify-content-center mb-2">
-                        <PaypalButton />
+                    <PayPalButton
+                        amount="150.00"
+                        shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
+                        onSuccess={(details, data) => {
+                            setPaidFor(true)
+
+                        // OPTIONAL: Call your server to save the transaction
+                        return fetch("/paypal-transaction-complete", {
+                            method: "post",
+                            body: JSON.stringify({
+                            orderId: data.orderID
+                            })
+                        });
+                        }}
+                        options={{
+                        clientId: "AaPiNuBE-3bjn86CtDSbnbs5nnaeQ-vNhBk48DdMwZ0vsUYGVuE1_38burybKxv_Qn78gXQYUSKf1UG0"
+                        }}
+                    />
                     </div>
                 )}
             </div>
