@@ -47,7 +47,7 @@ function Discover() {
                     ) : (
                         <div className="well d-flex justify-content-center mb-2">
                         <PayPalButton
-                            amount="0.01"
+                            amount="42.50"
                             shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
                             onSuccess={(details, data) => {
                                 setPaidFor(true)
