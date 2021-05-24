@@ -34,7 +34,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item active">
                     <Link className="nav-link" to="/sites">
-                        Dive Sites
+                        Dive Packages
                     </Link>
                 </li>
                 <li className="nav-item active">
