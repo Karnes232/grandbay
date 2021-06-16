@@ -55,7 +55,7 @@ const IndexPage = () => (
             <div className="seo-tags">
                 <h1><strong>punta cana dive sites</strong></h1>
             </div>
-            <h4 className='trip-links'><strong>Reef Diving</strong></h4>
+            <h4 className='trip-links'><strong>Dive Packages</strong></h4>
             <img className='my-2' src={icon1} alt="Scuba Diving Punta Cana"/>
             <p className='mt-2'>Dive for a day or more, and save on multiple dive packages</p>
             </Link>
