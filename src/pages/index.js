@@ -58,8 +58,8 @@ const IndexPage = () => {
             <SEO title="Grand Bay of the Sea" schemaMarkup={schema}/>
             <div className="seo-tags">
                 <h1><strong>punta cana scuba diving</strong></h1>
-                <h1><strong>scuba diving dominican republic</strong></h1>
-                <h1><strong>diving dominican republic</strong></h1>
+                <h2><strong>scuba diving dominican republic</strong></h2>
+                <h2><strong>diving dominican republic</strong></h2>
             </div>
             <CarouselComponent/>
             <div className="hero text-center">

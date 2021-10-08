@@ -12,7 +12,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    
+    `gatsby-plugin-minify`,    
     {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
