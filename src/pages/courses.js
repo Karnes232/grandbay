@@ -11,7 +11,7 @@ function Courses() {
     return (
         <>
         <Helment>
-            <link rel="canonical" href="https://www.grandbay-puntacana.com/courses" />
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/courses/" />
         </Helment>
         <Layout>
         <SEO title="PADI Courses" description="We offer many different scuba diving courses to help you gain experience well you are on vacation in Punta Cana"/>
@@ -33,6 +33,9 @@ function Courses() {
                 </div>
                 <div className="row py-4">
                     <div className="col-sm-12 d-flex justify-content-center text-center">
+                        <div className="seo-tags">
+                            <h1><strong>Scuba Diving in Punta Cana</strong></h1>
+                        </div>
                         <p>It takes a little getting used to but after a few minutes, most participants realize how easy scuba diving really is. The biggest challenge for us is coaxing our students out of the water when the program is over.</p>
                     </div>
                 </div>

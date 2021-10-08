@@ -13,13 +13,16 @@ function Trips() {
     return (
         <>
         <Helment>
-            <link rel="canonical" href="https://www.grandbay-puntacana.com/trips" />
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/trips/" />
         </Helment>
         <Layout>
         <SEO title="Dive Trips" description="Some of the best scuba diving in the Dominican Republic is on the caribbean coast. We offer day trips to Catalina, Bayahibe and Saona."/>
 
             <TripCarousel/> 
             <div className="mx-5 text-center mt-4 dive-info">
+                <div className="seo-tags">
+                    <h1><strong>Scuba Diving in Punta Cana</strong></h1>
+                </div>
                 <h5 className='mb-2'><strong>The Caribbean Sea and thriving reefs will have divers exploring the shallow reefs, or the deeper wrecks.</strong></h5>
                 <div className="row mt-2">
                     <div className="section text-center w-75 p-3 mt-0 mx-auto col-12 col-md-4">

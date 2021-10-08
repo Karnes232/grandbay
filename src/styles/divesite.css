@@ -16,6 +16,15 @@
     color: white;
     font-family: 'Yellowtail', cursive;
   }
+
+  .scuba-bayhibe-text {
+    display: inline-block;
+  }
+
+  .scuba-bayhibe-h1 {
+    font-size: inherit;
+    display: inline;
+  }
   
   .jumbotron-background {
     object-fit:cover;

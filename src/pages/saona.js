@@ -15,7 +15,7 @@ function Saona() {
     return (
         <>
         <Helment>
-            <link rel="canonical" href="https://www.grandbay-puntacana.com/saona" />
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/saona/" />
         </Helment>
         <Layout>
         <SEO title="Saona Diving" description="Saona Island is just a short trip from Punta Cana offering some of the best scuba diving in the caribbean" />
@@ -74,8 +74,8 @@ function Saona() {
                 <h3><strong>Saona  Island</strong></h3>
 
                 <div className="row">
-                    <div className="col-sm-12">
-                        <p>Saona Island is probably the most famous attraction in the Dominican Republic, and for good reason! The dives are world class and the beaches are paradise! This excursion is perfect for divers and snorkelers from the Punta Cana and Bavaro areas. It is a full day tour that will take you to a wreck dive/snorkel as well as our favorite dive site called el Penon. After the dives we go have lunch on Saona Island and enjoy some beach time. </p>
+                    <div className="col-sm-12 mb-3">
+                        <p className='d-inline'>Saona Island is probably the most famous attraction in the Dominican Republic, and for good reason! The dives are world class and the beaches are paradise! This excursion is perfect for<h1 className='scuba-diver-heading'> divers and snorkelers from the Punta Cana and Bavaro </h1> areas. It is a full day tour that will take you to a wreck dive/snorkel as well as our favorite dive site called el Penon. After the dives we go have lunch on Saona Island and enjoy some beach time. </p>
                     </div>
                 </div>
 

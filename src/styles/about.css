@@ -20,11 +20,13 @@
     position: absolute;
     width: 54px;
 }
+
 .aboutus-text {
     
     font-size: 13px;
     line-height: 22px;
     margin: 0 0;
+    display: inline;
   }
 
 

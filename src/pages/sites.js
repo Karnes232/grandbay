@@ -16,7 +16,7 @@ function Sites() {
     return (
         <>
         <Helment>
-            <link rel="canonical" href="https://www.grandbay-puntacana.com/sites" />
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/sites/" />
         </Helment>
         <Layout>
         <SEO title="Dive Sites Punta Cana" description="Grand Bay of the Sea has many choices to dive in Punta Cana and the surrounding areas. With over 30 dive sites to choose from, we are sure we can help you find one that is right for you and your family." />

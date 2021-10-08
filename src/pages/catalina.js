@@ -16,7 +16,7 @@ function Catalina() {
     return (
         <>
         <Helment>
-            <link rel="canonical" href="https://www.grandbay-puntacana.com/catalina" />
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/catalina/" />
         </Helment>
         <Layout>
         <SEO title="Catalina Diving" description="Catalina Island is just a short trip from Punta Cana offering some of the best scuba diving in the caribbean"/>
@@ -90,7 +90,7 @@ function Catalina() {
                     
                     <div class="col-sm-6">
                         <div class="well">
-                            <p>THE WALL:  This spectacular drop-off is definitely one of the best dive sites in the Dominican Republic.  A gentle slope leads towards the wall. On the top reef you will enjoy the abundant marine life. Every square centimeter of this sea bed is covered with sponges and hard or soft coral. The depth of this terrace varies from 1.5 to 6 meters. The drop-off is fully overgrown with coral and the crevices hide a tremendous amount of reef creatures. We restrict the depth even for advanced divers to 30 meters. </p>
+                        <p className='scuba-bayhibe-text'>THE WALL:  This spectacular drop-off is definitely one of the <h1 className='scuba-bayhibe-h1'> best dive sites in the Dominican Republic</h1>.  A gentle slope leads towards the wall. On the top reef you will enjoy the abundant marine life. Every square centimeter of this sea bed is covered with sponges and hard or soft coral. The depth of this terrace varies from 1.5 to 6 meters. The drop-off is fully overgrown with coral and the crevices hide a tremendous amount of reef creatures. We restrict the depth even for advanced divers to 30 meters. </p>
                         </div>
                     </div>
                     <div class="col-sm-6">

@@ -14,7 +14,7 @@ function Discover() {
     return (
         <>
         <Helment>
-            <link rel="canonical" href="https://www.grandbay-puntacana.com/discover" />
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/discover/" />
         </Helment>
         <Layout>
         <SEO title="Discover Scuba Diving" description="Well your on your vacation in Punta Cana you can try scuba diving for the very first time." />
@@ -23,6 +23,9 @@ function Discover() {
                 <h3 className='mb-2'><strong>Try Discover Scuba Diving</strong></h3>
                 <div className="row mt-2">
                 <div className="col-sm-4 d-flex align-items-center">
+                    <div className="seo-tags">
+                        <h1><strong>Scuba Diving in Punta Cana</strong></h1>
+                    </div>
                     <div className="well">
                         <h5>Experience the underwater world!</h5>
                         <p>If you would like to give diving a try, but don’t really know if you’re going to like it, or simply don’t want to invest a lot of time in a full course, we are pleased to offer a number of options that let you get your hair wet and experience the underwater world.</p>

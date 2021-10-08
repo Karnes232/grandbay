@@ -65,6 +65,11 @@ a:hover, a:active {
   opacity: 0.9;
 }
 
+.scuba-diver-heading {
+  font-size: inherit;
+  display: inherit;
+}
+
 
 .trip-links {
   color: rgb(65, 65, 255);

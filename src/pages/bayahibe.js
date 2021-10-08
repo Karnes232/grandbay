@@ -7,14 +7,39 @@ import SEO from "../components/seo"
 import { PayPalButton } from "react-paypal-button-v2";
 import Button from 'react-bootstrap/Button';
 
+import Select from '@material-ui/core/Select';
+import MenuItem from '@material-ui/core/MenuItem';
+import InputLabel from '@material-ui/core/InputLabel';
+import FormControl from '@material-ui/core/FormControl';
+import { makeStyles } from '@material-ui/core/styles';
+
 function Bayahibe() {
 
+    const useStyles = makeStyles((theme) => ({
+        formControl: {
+          margin: theme.spacing(1),
+          minWidth: 120,
+        },
+        selectEmpty: {
+          marginTop: theme.spacing(2),
+        },
+      }));
+
     const [paidFor, setPaidFor] = useState(false);
+    const [amount, setAmount] = React.useState('');
+    const [paypalAmount, setPaypalAmount] = React.useState('100.00');
+
+    const classes = useStyles();
+
+    const handleChange = (event) => {
+        setAmount(event.target.value);
+        setPaypalAmount(event.target.value*100)
+      };
 
     return (
         <>
         <Helment>
-            <link rel="canonical" href="https://www.grandbay-puntacana.com/bayahibe" />
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/bayahibe/" />
         </Helment>
         <Layout>
         <SEO title="Bayahibe Diving" description="Bayahibe is just a short trip from Punta Cana offering some of the best scuba diving in the caribbean"/>
@@ -44,23 +69,23 @@ function Bayahibe() {
                     ) : (
                         <div className="well d-flex justify-content-center mb-2">
                         <PayPalButton
-                        amount="100.00"
-                        shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
-                        onSuccess={(details, data) => {
-                            setPaidFor(true)
+                            amount="100.00"
+                            shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
+                            onSuccess={(details, data) => {
+                                setPaidFor(true)
 
-                        // OPTIONAL: Call your server to save the transaction
-                        return fetch("/paypal-transaction-complete", {
-                            method: "post",
-                            body: JSON.stringify({
-                            orderId: data.orderID
-                            })
-                        });
-                        }}
-                        options={{
-                        clientId: "AaPiNuBE-3bjn86CtDSbnbs5nnaeQ-vNhBk48DdMwZ0vsUYGVuE1_38burybKxv_Qn78gXQYUSKf1UG0"
-                        }}
-                    />
+                            // OPTIONAL: Call your server to save the transaction
+                            return fetch("/paypal-transaction-complete", {
+                                method: "post",
+                                body: JSON.stringify({
+                                orderId: data.orderID
+                                })
+                            });
+                            }}
+                            options={{
+                            clientId: "AaPiNuBE-3bjn86CtDSbnbs5nnaeQ-vNhBk48DdMwZ0vsUYGVuE1_38burybKxv_Qn78gXQYUSKf1UG0"
+                            }}
+                        />
                         </div>
                     )} 
                 </div>
@@ -81,7 +106,7 @@ function Bayahibe() {
                     </div>
                     <div class="col-sm-6">
                         <div class="well">
-                            <p>The small fishing village of Bayahibe is located on the south coast of the Dominican Republic, a great place to visit any time of the year. Scuba diving in Bayahibe, is probably the best scuba diving on the whole Island. Diving in Bayahibe is generally easy. Most of the reefs just offshore and the protected side of Saona Island have little to no current.</p>
+                            <p className='scuba-bayhibe-text'>The small fishing village of Bayahibe is located on the south coast of the Dominican Republic, a great place to visit any time of the year. <h1 className='scuba-bayhibe-h1'>Scuba diving in Bayahibe</h1>, is probably the best scuba diving on the whole Island. Diving in Bayahibe is generally easy. Most of the reefs just offshore and the protected side of Saona Island have little to no current.</p>
                         </div>
                     </div>  
                 </div>

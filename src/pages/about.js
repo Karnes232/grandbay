@@ -13,7 +13,7 @@ function About() {
     return (
         <>
         <Helment>
-            <link rel="canonical" href="https://www.grandbay-puntacana.com/about" />
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/about/" />
         </Helment>
         <Layout>
         <SEO title="About Us" />
@@ -23,7 +23,7 @@ function About() {
                     <div className="col-md-3 col-sm-12 col-xs-12" id='aboutus'>
                         <div className="aboutus">
                             <h2 className="aboutus-title">About Us</h2>
-                            <p className="aboutus-text">Grand Bay of the Sea is a local family ran dive company located in the Punta Cana area. With more than 15 years of experience throughout the Dominican Republic, we guarantee satisfaction and excellent treatment from our qualified staff. We specialize in providing a more personalized service to our clients with our professional team</p>
+                            <h1 className="aboutus-text">Grand Bay of the Sea</h1> <p className="aboutus-text">is a local family ran dive company located in the <h2 className="aboutus-text">Punta Cana</h2> area. With more than 15 years of experience throughout the Dominican Republic, we guarantee satisfaction and excellent treatment from our qualified staff. We specialize in providing a more personalized service to our clients with our professional team</p>
                             
                         </div>
                     </div>

@@ -15,7 +15,7 @@ function Species() {
     return (
         <>
         <Helment>
-            <link rel="canonical" href="https://www.grandbay-puntacana.com/species" />
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/species/" />
         </Helment>
         <Layout>
         <SEO title="Fishes of Punta Cana" />

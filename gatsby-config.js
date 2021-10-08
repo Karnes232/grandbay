@@ -6,6 +6,7 @@ module.exports = {
     url: `https://www.grandbay-puntacana.com`,
     siteUrl: `https://www.grandbay-puntacana.com`,
     author: `@GrandBayOfTheS1`,
+    image: 'https://i.ibb.co/mcHjrpT/logo01.jpg'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

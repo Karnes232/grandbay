@@ -17,14 +17,14 @@ function ScubaDiver() {
     return (
         <>
         <Helment>
-            <link rel="canonical" href="https://www.grandbay-puntacana.com/scubadiver" />
+            <link rel="canonical" href="https://www.grandbay-puntacana.com/scubadiver/" />
         </Helment>
         <Layout>
         <SEO title="PADI Scuba Diver" description="The scuba diver course is the first level of certification, allowing you to dive with a professional." />
             <DiscoverCarousel/>
             <div className="mx-5 text-center mt-4 dive-info">    
             <h3 className='mb-2'><strong>Padi Scuba Diver Course</strong></h3>
-            <h5 id='scuba-diver-info-big'><strong>What can you expect from this beginner’s Scuba Diving course in the Dominican?</strong></h5>
+            <h5 id='scuba-diver-info-big'><strong>What can you expect from this beginner’s <h1 className='scuba-diver-heading'><strong>Scuba Diving course in the Dominican</strong></h1>?</strong></h5>
             <div className="row mt-2">
             <div className="col-sm-4 d-flex align-items-center">
                 <div className="well">
@@ -73,7 +73,7 @@ function ScubaDiver() {
             </div>
             <div className="col-sm-4 d-flex align-items-center">
                 <div className="well">
-                    <h5 id='scuba-diver-info-small'><strong>What can you expect from this beginner’s Scuba Diving course in the Dominican?</strong></h5>
+                    <h5 id='scuba-diver-info-small'><strong>What can you expect from this beginner’s <h1 className='scuba-diver-heading'><strong>Scuba Diving course in the Dominican</strong></h1>?</strong></h5>
                     <p>The PADI E-Learning is a new product from PADI that makes the dive theory very easy to complete and can be downloaded on any Apple or Android device before you even arrive on Punta Cana or on the beach here, which leaves more free time for you on your vacation.</p>
                 </div>
             </div>
