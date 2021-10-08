@@ -7,34 +7,11 @@ import SEO from "../components/seo"
 import { PayPalButton } from "react-paypal-button-v2";
 import Button from 'react-bootstrap/Button';
 
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
-import InputLabel from '@material-ui/core/InputLabel';
-import FormControl from '@material-ui/core/FormControl';
-import { makeStyles } from '@material-ui/core/styles';
 
 function Bayahibe() {
 
-    const useStyles = makeStyles((theme) => ({
-        formControl: {
-          margin: theme.spacing(1),
-          minWidth: 120,
-        },
-        selectEmpty: {
-          marginTop: theme.spacing(2),
-        },
-      }));
 
     const [paidFor, setPaidFor] = useState(false);
-    const [amount, setAmount] = React.useState('');
-    const [paypalAmount, setPaypalAmount] = React.useState('100.00');
-
-    const classes = useStyles();
-
-    const handleChange = (event) => {
-        setAmount(event.target.value);
-        setPaypalAmount(event.target.value*100)
-      };
 
     return (
         <>
