@@ -20,6 +20,7 @@ function Modal() {
                 <div class="modal-body">
                     <div class="well">
                         <p>2 Tank Dive: $100 per person</p>
+                        <p>2 Tank Dive (Shark Point): $150 per person</p>
                         <p>Duration: 2.5 Hours</p>
                         <p>4 Tank Package: $180</p>
                         <p>Duration: 2 days of diving</p>
