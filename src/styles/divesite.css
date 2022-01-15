@@ -65,3 +65,10 @@
         height: 20vw;
       }
   }
+
+  @media screen and (min-width:1900px)
+{
+  .modal-content {
+    width: 130%;
+  }
+  }
