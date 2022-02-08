@@ -7,7 +7,7 @@ import icon2 from '../images/icons8-shark-96.png';
 import icon3 from '../images/icons8-cruise-ship-96.png';
 import Helment from 'react-helmet'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 function Trips() {
     return (
@@ -16,7 +16,7 @@ function Trips() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/trips/" />
         </Helment>
         <Layout>
-        <SEO title="Dive Trips" description="Some of the best scuba diving in the Dominican Republic is on the caribbean coast. We offer day trips to Catalina, Bayahibe and Saona."/>
+        <Seo title="Dive Trips" description="Some of the best scuba diving in the Dominican Republic is on the caribbean coast. We offer day trips to Catalina, Bayahibe and Saona."/>
 
             <TripCarousel/> 
             <div className="mx-5 text-center mt-4 dive-info">

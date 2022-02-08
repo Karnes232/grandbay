@@ -3,7 +3,7 @@ import SaonaCarousel  from '../components/SaonaCarousel';
 import Footer from '../components/Footer';
 import Helment from 'react-helmet'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { PayPalButton } from "react-paypal-button-v2"
 import Button from 'react-bootstrap/Button';
 
@@ -18,7 +18,7 @@ function Saona() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/saona/" />
         </Helment>
         <Layout>
-        <SEO title="Saona Diving" description="Saona Island is just a short trip from Punta Cana offering some of the best scuba diving in the caribbean" />
+        <Seo title="Saona Diving" description="Saona Island is just a short trip from Punta Cana offering some of the best scuba diving in the caribbean" />
             <div className="catalina">
                 <div className="row">
                 <div className="col-sm-8 mb-3">

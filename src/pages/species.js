@@ -3,7 +3,7 @@ import { fish } from '../fish';
 import Footer from '../components/Footer';
 import Helment from 'react-helmet'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { motion } from 'framer-motion';
 import Button from 'react-bootstrap/Button';
 import ModalPhotos from '../components/ModalPhotos'
@@ -18,7 +18,7 @@ function Species() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/species/" />
         </Helment>
         <Layout>
-        <SEO title="Fishes of Punta Cana" />
+        <Seo title="Fishes of Punta Cana" />
             <div className="jumbotron">
                 <div className="jumbotron-background">
                     <img src="https://i.ibb.co/HpdmSGf/saona1.jpg" alt=""/>

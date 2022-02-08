@@ -3,7 +3,7 @@ import DiscoverCarousel  from '../components/DiscoverCarousel';
 import Footer from '../components/Footer';
 import Helment from 'react-helmet'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import Button from 'react-bootstrap/Button';
 
@@ -20,7 +20,7 @@ function ScubaDiver() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/scubadiver/" />
         </Helment>
         <Layout>
-        <SEO title="PADI Scuba Diver" description="The scuba diver course is the first level of certification, allowing you to dive with a professional." />
+        <Seo title="PADI Scuba Diver" description="The scuba diver course is the first level of certification, allowing you to dive with a professional." />
             <DiscoverCarousel/>
             <div className="mx-5 text-center mt-4 dive-info">    
             <h3 className='mb-2'><strong>Padi Scuba Diver Course</strong></h3>

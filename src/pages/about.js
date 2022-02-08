@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import { SiFacebook, SiInstagram, SiTwitter } from 'react-icons/si';
 import Helment from 'react-helmet'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import '../styles/about.css'
 
 function About() {
@@ -16,7 +16,7 @@ function About() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/about/" />
         </Helment>
         <Layout>
-        <SEO title="About Us" />
+        <Seo title="About Us" />
           <div className="aboutus-section">
             <div className="container aboutus-container">
                 <div className="row">

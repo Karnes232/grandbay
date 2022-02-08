@@ -3,7 +3,7 @@ import DiscoverCarousel  from '../components/DiscoverCarousel';
 import Footer from '../components/Footer';
 import Helment from 'react-helmet'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { PayPalButton } from "react-paypal-button-v2"
 import Button from 'react-bootstrap/Button';
 
@@ -17,7 +17,7 @@ function OpenWater() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/openwater/" />
         </Helment>
         <Layout>
-        <SEO title="Open Water" description="Well you are in Punta Cana you have the chance to complete your Open Water Dive certification"/>
+        <Seo title="Open Water" description="Well you are in Punta Cana you have the chance to complete your Open Water Dive certification"/>
             <DiscoverCarousel/>
             <div className="mx-5 text-center mt-4 dive-info">    
             <h3 className='mb-2'><strong>Padi Open Water Course</strong></h3>

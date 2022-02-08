@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Helment from 'react-helmet'
 import Grid from '@material-ui/core/Grid';
 import ContactComponent from '../components/ContactComponent'
@@ -13,7 +13,7 @@ function contact() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/contact/" />
         </Helment>
         <Layout>
-        <SEO title="Contact Us" description="Contact us to learn how you can go scuba diving in Punta Cana" />
+        <Seo title="Contact Us" description="Contact us to learn how you can go scuba diving in Punta Cana" />
             <div className="container">
                 <Grid container spacing={1}>
                     <ContactComponent />
