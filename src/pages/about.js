@@ -16,7 +16,7 @@ function About() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/about/" />
         </Helment>
         <Layout>
-        <Seo title="About Us" />
+        <Seo title="About Us | Grand Bay of The Sea | Scuba Diving in Punta Cana made easy" description="We guarantee satisfaction and excellent treatment from our qualified staff. Talk to us right away to learn more about Grand Bay of The Sea." />
           <div className="aboutus-section">
             <div className="container aboutus-container">
                 <div className="row">

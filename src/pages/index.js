@@ -55,7 +55,7 @@ const IndexPage = () => {
                 <meta name="google-site-verification" content="QNQfgD0iQIbuHkuZ5fb8hKEYbV6iCN_TvIyRdnAu7yg" />
                 
             </Helment>
-            <Seo title="Grand Bay of the Sea" schemaMarkup={schema}/>
+            <Seo title="Grand Bay of the Sea | Dive Company Punta Cana | Diving Training Center Punta Cana | Dive Center Near Me | Scuba Diving in Punta Cana made easy" description="Join our Scuba Divers on the reefs around Punta Cana and the surrounding area. To learn about our Dive Company, visit our website now." schemaMarkup={schema}/>
             <div className="seo-tags">
                 <h1><strong>punta cana scuba diving</strong></h1>
                 <h2><strong>scuba diving dominican republic</strong></h2>

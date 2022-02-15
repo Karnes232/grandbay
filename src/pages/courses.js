@@ -14,7 +14,7 @@ function Courses() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/courses/" />
         </Helment>
         <Layout>
-        <Seo title="PADI Courses" description="We offer many different scuba diving courses to help you gain experience well you are on vacation in Punta Cana"/>
+        <Seo title="Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana" description="We provide Scuba Classes in Punta Cana. Learn Certified Dive In Punta Cana. Come to us at Grand Bay of the Sea for Certified Dive In Punta Cana. "/>
             <div className="mx-5 mt-5">
                 <div className="row">
                     <div className="col-sm-8 d-flex justify-content-center mb-1">

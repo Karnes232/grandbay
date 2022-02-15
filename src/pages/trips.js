@@ -16,7 +16,7 @@ function Trips() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/trips/" />
         </Helment>
         <Layout>
-        <Seo title="Dive Trips" description="Some of the best scuba diving in the Dominican Republic is on the caribbean coast. We offer day trips to Catalina, Bayahibe and Saona."/>
+        <Seo title="Dive Trip Packages In Punta Cana | Scuba Diver In Punta Cana" description="We specialize in providing more personalized services to our clients with our professional team. Check out our Dive Trip Packages today."/>
 
             <TripCarousel/> 
             <div className="mx-5 text-center mt-4 dive-info">

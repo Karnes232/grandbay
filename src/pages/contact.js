@@ -13,7 +13,7 @@ function contact() {
             <link rel="canonical" href="https://www.grandbay-puntacana.com/contact/" />
         </Helment>
         <Layout>
-        <Seo title="Contact Us" description="Contact us to learn how you can go scuba diving in Punta Cana" />
+        <Seo title="Contact Us | Grand Bay of The Sea | Scuba Diving in Punta Cana made easy" description="Come and discover scuba diving with the experts at Grand Bay of The Sea. Contact Us for personalized packages and services." />
             <div className="container">
                 <Grid container spacing={1}>
                     <ContactComponent />
