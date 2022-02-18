@@ -1,5 +1,5 @@
 import React from 'react';
-import logosmaller from '../images/logo-smaller.png'
+import logosmaller from '../images/logo-smaller.webp'
 import { Link } from 'gatsby'
 import '../styles/nav.css'
 

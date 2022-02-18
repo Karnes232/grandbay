@@ -2,8 +2,8 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import CarouselComponent from '../components/CarouselComponent'
 import Footer from '../components/Footer';
-import icon1 from '../images/icons8-clown-fish-48.png';
-import icon3 from '../images/icons8-scuba-diving-team-64.png';
+import icon1 from '../images/icons8-clown-fish-48.webp';
+import icon3 from '../images/icons8-scuba-diving-team-64.webp';
 import '../styles/index.css'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
