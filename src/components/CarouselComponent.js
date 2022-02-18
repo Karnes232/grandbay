@@ -18,15 +18,16 @@ export default function CarouselComponent() {
                 transitionTime={700}
                 showStatus={false}
             >
+                <div className='less-opacity'>
+                    <img src="https://i.ibb.co/K7m6Ynk/DSC6729.webp" srcset="https://i.ibb.co/MMQJ4J3/DSC6729-smaller.webp 700w, https://i.ibb.co/K7m6Ynk/DSC6729.webp 1080w" sizes="50vw" alt="Scuba Diving Punta Cana"/>
+                </div>
                 <div className="carousel-wrapper-inner">
                     <img src="https://i.ibb.co/R9ddywQ/cat3.webp" srcset="https://i.ibb.co/hZqZgsW/cat3-small.webp 480w, https://i.ibb.co/R9ddywQ/cat3.webp 1080w" sizes="50vw" alt="Scuba Diving Punta Cana"/>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/7gdVbWb/photo1.webp" srcset="https://i.ibb.co/qDYmvdr/photo1-smaller.webp 500w, https://i.ibb.co/H2nxJb6/photo1-small.webp 700w, https://i.ibb.co/7gdVbWb/photo1.webp 1080w" sizes="50vw" alt="Scuba Diving Punta Cana"/>
                 </div>
-                <div className='less-opacity'>
-                    <img src="https://i.ibb.co/K7m6Ynk/DSC6729.webp" srcset="https://i.ibb.co/MMQJ4J3/DSC6729-smaller.webp 700w, https://i.ibb.co/K7m6Ynk/DSC6729.webp 1080w" sizes="50vw" alt="Scuba Diving Punta Cana"/>
-                </div>
+                
                 <div>
                     <img src="https://i.ibb.co/QrTvX90/image4.webp" srcset="https://i.ibb.co/yhQqcWg/image4-smaller.webp 700w, https://i.ibb.co/QrTvX90/image4.webp 1080w" sizes="50vw" alt="Scuba Diving Punta Cana"/>
                 </div>
