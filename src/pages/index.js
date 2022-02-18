@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
+import LazyLoad from 'react-lazyload';
 import CarouselComponent from '../components/CarouselComponent'
 import Footer from '../components/Footer';
 import icon1 from '../images/icons8-clown-fish-48.webp';
@@ -61,7 +62,9 @@ const IndexPage = () => {
                 <h2><strong>scuba diving dominican republic</strong></h2>
                 <h2><strong>diving dominican republic</strong></h2>
             </div>
-            <CarouselComponent/>
+            <LazyLoad height={200} offset={50} once>
+                <CarouselComponent/>
+            </LazyLoad>
             <div className="hero text-center">
                     <h1>Grand Bay</h1>
                     <h2>of The</h2>
@@ -75,7 +78,7 @@ const IndexPage = () => {
                     <h4> <strong>Explore a Whole New World!</strong> </h4>
                     <p>Join us on the reefs around Punta Cana and surrounding  area. You will find a great variety of dive sites from shallow coral reefs, wrecks, caves and canyons habited by turtles.</p>   
                 </div>
-
+                
                 <div className="row mx-5">
                 <div className="section text-center w-75 p-3 mt-0 mx-auto col-12 col-md-3 index-sections">
                     <Link className="nav-link"  to="/courses">
@@ -109,6 +112,7 @@ const IndexPage = () => {
                     <p className='mt-2'>Enjoy a day on the caribbean coast of the island, with its white sand and turquoise waters</p>
                     </Link>
                 </div>
+                <LazyLoad height={200} offset={50} once>
                 <div className="p-0 mx-0 mt-2 col-12 col-md-12 google-map">
                     <iframe id='google-map' className='mb-2' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4686.043239862332!2d-68.36093478510533!3d18.648849387334387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea8ed5ae3fc1995%3A0xfaa20e908d9d0359!2sGrand%20Bay%20of%20the%20Sea%20%2C%20Dive%20Center!5e1!3m2!1sen!2sdo!4v1612129278222!5m2!1sen!2sdo" frameborder="0"  allowfullscreen="" aria-hidden="false" title='google-map'></iframe>
                     <div className="mx-auto my-auto">
@@ -116,9 +120,11 @@ const IndexPage = () => {
                     <p>Grand Bay of the Sea is located in the area of Cabeza de Toro in Punta Cana, with a centralized location we are available to provide service and transportation for  all locations in the Punta Cana area. </p>
                     </div>
                 </div>
-                
+                </LazyLoad>
                 </div>   
-                <Footer/>  
+                <LazyLoad height={200} offset={50} once>
+                    <Footer/> 
+                </LazyLoad> 
         </Layout>
     )}
 
