@@ -11,6 +11,7 @@ import Button from 'react-bootstrap/Button';
 import { motion } from 'framer-motion';
 import '../styles/divesite.css'
 
+
 function Sites() {
     const [selectedImg, setSelectedImg] = useState(null)
     return (

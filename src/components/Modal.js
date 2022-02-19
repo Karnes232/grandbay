@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { PayPalButton } from "react-paypal-button-v2";
-import LazyLoad from 'react-lazyload';
+
+
 
 function Modal() {
 
@@ -8,8 +9,9 @@ function Modal() {
 
     return (
         <>
-        <LazyLoad height={200} offset={50} once>
+        
         <div className="modal fade" id="dive-packages" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
             <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                 <div className="modal-content">
                 <div className="modal-header">
@@ -18,6 +20,7 @@ function Modal() {
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+                
                 <div class="modal-body">
                     <div class="well">
                         <p>2 Tank Dive: $100 per person</p>
@@ -40,6 +43,7 @@ function Modal() {
                         </div>
                     ) : (
                         <div className="well d-flex justify-content-center mb-2">
+                        
                         <PayPalButton
                             amount="50.00"
                             shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
@@ -58,16 +62,18 @@ function Modal() {
                             clientId: "AaPiNuBE-3bjn86CtDSbnbs5nnaeQ-vNhBk48DdMwZ0vsUYGVuE1_38burybKxv_Qn78gXQYUSKf1UG0"
                             }}
                         />
+                        
                         </div>
                     )} 
                 </div>
+                
                 <div class="modal-footer">
                     <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
                 </div>
             </div>
         </div> 
-        </LazyLoad>
+        
         </>
     )
 }
