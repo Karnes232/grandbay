@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { PayPalButton } from "react-paypal-button-v2";
-
+import LazyLoad from 'react-lazyload';
 
 function Modal() {
 
@@ -8,6 +8,7 @@ function Modal() {
 
     return (
         <>
+        <LazyLoad height={200} offset={50} once>
         <div className="modal fade" id="dive-packages" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                 <div className="modal-content">
@@ -66,6 +67,7 @@ function Modal() {
                 </div>
             </div>
         </div> 
+        </LazyLoad>
         </>
     )
 }
