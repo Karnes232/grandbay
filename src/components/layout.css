@@ -108,7 +108,7 @@ a:hover, a:active {
   height: 0px;
 }
 
-.seo-tags h1, h2, h3 {
+.seo-tags h1, .seo-tags h2, .seo-tags h3 {
   font-size: 0.1px;
   color: transparent;
 }
