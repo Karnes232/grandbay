@@ -22,7 +22,7 @@ function Sites() {
         <Seo title="Padi Course In Punta Cana | Scuba Classes | Scuba School Near Me | Scuba Certification Punta Cana | Padi Scuba Diving Punta Cana" description="Talk to our team about packages of Scuba Diving, Scuba Classes, Shark Diving In Punta Cana. Give us a call right away." />
             <div className="jumbotron">
                 <div className="jumbotron-background">
-                    <img src="https://i.ibb.co/HpdmSGf/saona1.jpg" alt="Punta Cana Scuba Diving"/>
+                    <img src="https://i.ibb.co/0KfLQXn/saona1.webp" alt="Punta Cana Scuba Diving"/>
                 </div>
                 <div className="container text-center">
                     <h1>Dive Sites</h1>     
