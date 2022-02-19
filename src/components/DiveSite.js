@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import LazyLoad from 'react-lazyload';
 
 const DiveSite = ({ id, name, img, depth, desc, selectedImg, setSelectedImg }) => {
     const [readMore,setReadMore] = useState(false);
@@ -9,6 +10,7 @@ const DiveSite = ({ id, name, img, depth, desc, selectedImg, setSelectedImg }) =
             tabIndex="0"   
             onKeyDown={() => setSelectedImg(img)}  
         >
+            <LazyLoad height={200} offset={50} once>
             <img src={img} alt={name} className='border border-bottom-0 border-dark rounded-top'/>
             <footer className="border border-top-0 rounded-bottom border-dark py-2 px-1">
                 <div className="d-flex align-items-center flex-column">
@@ -21,6 +23,7 @@ const DiveSite = ({ id, name, img, depth, desc, selectedImg, setSelectedImg }) =
                     {readMore?'show less':'read more'}
                 </button></p>
             </footer>
+            </LazyLoad>
         </div>
     )   
 };
