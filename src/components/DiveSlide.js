@@ -21,7 +21,7 @@ function DiveSlide() {
                     <Link to="/discover">
                     <div className="row d-flex justify-content-center">
                     <div className="col-xs-8 carousel-wrapper-inner w-100">
-                        <img className='w-100' id='dis-photo' src="https://i.ibb.co/Gc9Ynwg/JHO-0831-Editar.jpg" alt="Discover Scuba Diving Punta Cana"/>
+                        <img className='w-100' id='dis-photo' src="https://i.ibb.co/yP1wdKR/JHO-0831-Editar.webp" alt="Discover Scuba Diving Punta Cana"/>
                     </div>
                     <div className="col-xs-2 mt-2">
                         <div className="well course-list-small-screen">
@@ -38,7 +38,7 @@ function DiveSlide() {
                     <Link to="/scubadiver">
                     <div className="row d-flex justify-content-center">
                     <div className="col-xs-8 carousel-wrapper-inner w-100">
-                        <img className='w-100' src="https://i.ibb.co/0XKChJ4/GOPR2873.jpg"  alt="Scuba Diver PADI Punta Cana"/>
+                        <img className='w-100' src="https://i.ibb.co/rcBs8hK/GOPR2873.webp"  alt="Scuba Diver PADI Punta Cana"/>
                     </div>
                     <div className="col-xs-2 mt-2">
                         <div className="well course-list-small-screen">
@@ -55,7 +55,7 @@ function DiveSlide() {
                     <Link to="/openwater">
                     <div className="row d-flex justify-content-center">
                     <div className="col-xs-8 carousel-wrapper-inner w-100">
-                        <img className='w-100' src="https://i.ibb.co/qmX8Wwc/20190501-093335.jpg" alt="Open Water Punta Cana"/>
+                        <img className='w-100' src="https://i.ibb.co/L5kx6bg/20190501-093335.webp" alt="Open Water Punta Cana"/>
                     </div>
                     <div className="col-xs-2 mt-2">
                         <div className="well course-list-small-screen">
@@ -72,7 +72,7 @@ function DiveSlide() {
                     <Link to="/advanced">
                     <div className="row d-flex justify-content-center">
                     <div className="col-xs-8 carousel-wrapper-inner w-100">
-                        <img className='w-100' src="https://i.ibb.co/ZJwYBxS/IMG-0735.jpg" alt="Advanced Open Water Punta Cana"/>
+                        <img className='w-100' src="https://i.ibb.co/mvNrnQD/IMG-0735.webp" alt="Advanced Open Water Punta Cana"/>
                     </div>
                     <div className="col-xs-2 mt-2">
                         <div className="well course-list-small-screen">

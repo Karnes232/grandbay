@@ -10,7 +10,7 @@ function DiveCourses() {
                     <div className="row">
                         <div className="col-sm-8 carousel-photo">
                             <Link className="nav-link" to="/discover">
-                                <img src="https://i.ibb.co/Gc9Ynwg/JHO-0831-Editar.jpg" alt="Discover Scuba Diving Punta Cana"/>
+                                <img src="https://i.ibb.co/yP1wdKR/JHO-0831-Editar.webp" alt="Discover Scuba Diving Punta Cana"/>
                             </Link>
                         </div>
                         <div className="col-sm-3 text-center d-flex align-items-center dive-course-info"> 
@@ -31,7 +31,7 @@ function DiveCourses() {
                         </div>
                         <div className="col-sm-8 carousel-photo">
                             <Link className="nav-link" to="/scubadiver"> 
-                                <img src="https://i.ibb.co/0XKChJ4/GOPR2873.jpg" alt="Scuba Diver PADI Punta Cana"/>
+                                <img src="https://i.ibb.co/rcBs8hK/GOPR2873.webp" alt="Scuba Diver PADI Punta Cana"/>
                             </Link>
                         </div>                    
                     </div>
@@ -40,7 +40,7 @@ function DiveCourses() {
                     <div className="row">
                         <div className="col-sm-8 carousel-photo">
                             <Link className="nav-link" to="/openwater">
-                                <img src="https://i.ibb.co/qmX8Wwc/20190501-093335.jpg" alt="Open Water Diver Punta Cana"/>
+                                <img src="https://i.ibb.co/L5kx6bg/20190501-093335.webp" alt="Open Water Diver Punta Cana"/>
                             </Link>
                         </div>
                         <div className="col-sm-3 text-center d-flex align-items-center dive-course-info">
@@ -61,7 +61,7 @@ function DiveCourses() {
                         </div>
                         <div className="col-sm-8 carousel-photo">
                             <Link className="nav-link" to="/advanced">
-                                <img src="https://i.ibb.co/ZJwYBxS/IMG-0735.jpg" alt="Advanced Open Water Punta Cana"/>
+                                <img src="https://i.ibb.co/mvNrnQD/IMG-0735.webp" alt="Advanced Open Water Punta Cana"/>
                             </Link> 
                         </div>                           
                     </div>
