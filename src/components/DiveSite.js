@@ -11,7 +11,7 @@ const DiveSite = ({ id, name, img, depth, desc, selectedImg, setSelectedImg }) =
             
         >
             <LazyLoad height={200} offset={50} once>
-            <img onKeyDown={() => setSelectedImg(img)}   onClick={() => setSelectedImg(img)} src={img} alt={name} className='border border-bottom-0 border-dark rounded-top'/>
+            <img onKeyDown={() => setSelectedImg(img)} onClick={() => setSelectedImg(img)} src={img} alt={name} className='border border-bottom-0 border-dark rounded-top'/>
             <footer className="border border-top-0 rounded-bottom border-dark py-2 px-1">
                 <div className="d-flex align-items-center flex-column">
                     <h4 className=''>{name}</h4>

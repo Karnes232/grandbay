@@ -34,12 +34,17 @@
 
 @media screen and (min-width:768px){
   #google-map {
-    width: 135vw;
-    height: 35vw;
+    height: 35vh;
     margin-right: 2rem;
   }
   .google-map {
     display: flex;
     justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width:1900px) {
+  #google-map {
+    height: 50vh;
   }
 }

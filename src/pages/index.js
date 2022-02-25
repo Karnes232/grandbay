@@ -66,9 +66,8 @@ const IndexPage = () => {
                 <CarouselComponent/>
             </LazyLoad>
             <div className="hero text-center">
-                    <h1>Grand Bay</h1>
-                    <h2>of The</h2>
-                    <h3>Sea</h3>
+                    <h1>Grand Bay <br/>of The <br/>Sea </h1>
+
                 </div>
 
                 <div className="section text-center w-75 p-3 mx-auto">
@@ -76,7 +75,9 @@ const IndexPage = () => {
                         <h1><strong>Scuba Diving in Punta Cana</strong></h1>
                     </div>
                     <h4> <strong>Explore a Whole New World!</strong> </h4>
-                    <p>Join us on the reefs around Punta Cana and surrounding  area. You will find a great variety of dive sites from shallow coral reefs, wrecks, caves and canyons habited by turtles.</p>   
+                    <p>Welcome to Grand Bay of the Sea, your PADI Dive Center in Punta Cana, where our long-standing          experience meets the beauty of the underwater world in our gorgeous area, for a memorable diving experience in the best reefs of Dominican Republic.
+                        This is the place where any scuba diver in Punta Cana can feel at home, whether they are experienced divers or novices, or even non divers (yet!). We offer a wide range of dive trip packages in Punta Cana, including Bayahibe, Saona Island, and Catalina Island, as well as dive courses and certification packages.
+                        You can discover this Caribbean paradise with our experienced guides and our friendly staff, and join the multitude of divers and snorkelers that literally fell in love with the breathtaking views that our stunning sea offers. </p>   
                 </div>
                 
                 <div className="row mx-5">
@@ -117,7 +118,9 @@ const IndexPage = () => {
                     <iframe id='google-map' className='mb-2' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4686.043239862332!2d-68.36093478510533!3d18.648849387334387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea8ed5ae3fc1995%3A0xfaa20e908d9d0359!2sGrand%20Bay%20of%20the%20Sea%20%2C%20Dive%20Center!5e1!3m2!1sen!2sdo!4v1612129278222!5m2!1sen!2sdo" frameborder="0"  allowfullscreen="" aria-hidden="false" title='google-map'></iframe>
                     <div className="mx-auto my-auto">
                     <h4 className='text-center'><strong>Scuba Diving in Punta Cana</strong></h4>
-                    <p>Grand Bay of the Sea is located in the area of Cabeza de Toro in Punta Cana, with a centralized location we are available to provide service and transportation for  all locations in the Punta Cana area. </p>
+                    <p>Punta Cana is the underwater jewel of the Dominican Republic. The white beaches, lush vegetation and turquoise sea hide exciting adventures and beautiful seascapes. 
+                    Look for Dive Center near Me or Scuba School near me in your search engine to find our webpage and contact information. When you are diving with us, we take you to the best dive sites of the region, a paradise for shark lovers, wreck enthusiasts, turtles and rays galore! 
+                    The healthy reefs around this side of the islands are thriving with marvelous creatures and colorful corals. Shallow reefs here receive sunlight all year round and have the perfect conditions for hard corals to grow beautiful and vigorous: we can see brain corals, labyrinth corals, whip corals, fan corals, acroporas, porites, millepora and pillar corals.</p>
                     </div>
                 </div>
                 </LazyLoad>
