@@ -50,3 +50,12 @@
 .dive-course-info {
   height: 45vw;
 }
+.course-title {
+  text-align: center;
+}
+
+@media screen and (min-width:1800px) {
+  .course-title {
+    font-size: 2.5rem;
+  }
+}
