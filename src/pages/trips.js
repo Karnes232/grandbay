@@ -23,7 +23,13 @@ function Trips() {
                 <div className="seo-tags">
                     <h1><strong>Scuba Diving in Punta Cana</strong></h1>
                 </div>
-                <h5 className='mb-2'><strong>The Caribbean Sea and thriving reefs will have divers exploring the shallow reefs, or the deeper wrecks.</strong></h5>
+                <div className="row py-2">
+                    <div className="col-sm-12 text-center">
+                        <h4 className='text-center course-title'><strong>Our Dive Trips</strong></h4>
+                        <p>On our Bayahibe dive trip, we take you for an amazing certified dive in Punta Cana on a beautiful and colorful reef and an incredible second dive on the Atlantic Princess shipwreck, for some of the most exhilarating, colorful and bio-diverse Scuba Diving in Punta Cana.
+                        On our local dive at Catalina Island we like to take experienced scuba divers on a deep Wall dive, where we can swim past a beautiful drop-off covered in corals and visited by turtles and sharks. The second dive will be on one of our favorite shallow reefs, The Aquarium, where whip and fan corals hide puffer fish, schools of blue tangs, yellow stingrays, lobsters, moray eels and all sorts of reef fish.</p>
+                    </div>
+                </div>
                 <div className="row mt-2">
                     <div className="section text-center w-75 p-3 mt-0 mx-auto col-12 col-md-4">
                         <Link className="nav-link"  to="/catalina">
