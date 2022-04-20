@@ -30,7 +30,7 @@ function Catalina() {
                         <h4><strong>Trip Overview</strong></h4>
                         <p className='my-1'>Price: $175 per person </p>
                         <p className='my-1'>(2 tank dive)</p>
-                        <p className='my-1'>Price: $60 per person </p>
+                        <p className='my-1'>Price: $90 per person </p>
                         <p className='my-1'>(companion)</p>
                         <p className='my-1'>Duration: 7:30 - 18:00</p>
                         <p className='my-1'>Lunch included</p>
