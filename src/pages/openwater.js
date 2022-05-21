@@ -32,7 +32,7 @@ function OpenWater() {
                 <div className="well">
                     <h3>Course Overview</h3>
                     <p className='my-1'>Course Level: Beginner</p>
-                    <p className='my-1'>Price: $400 per person</p>
+                    <p className='my-1'>Price: $430 per person</p>
                     <p className='my-1'>Duration: 6 - 2.5 Hours sessions</p>
                     <p>Includes: Transport</p>
                     <p className='my-1'>Over 3 days</p>
@@ -48,7 +48,7 @@ function OpenWater() {
                 ) : (
                     <div className="well d-flex justify-content-center mb-2">
                     <PayPalButton
-                            amount="200.00"
+                            amount="215.00"
                             shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
                             onSuccess={(details, data) => {
                                 setPaidFor(true)
