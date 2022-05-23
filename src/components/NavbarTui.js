@@ -8,9 +8,9 @@ function NavbarTui() {
         <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light ">
             <div className="container mx-2 container-tui">
-                <Link className="navbar-brand" to="/">
+                <div className="navbar-brand">
                     <img src={logosmaller} id='small-logo' alt="Grand Bay of the Sea Scuba Diving in Punta Cana"></img>
-                </Link>
+                </div>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
