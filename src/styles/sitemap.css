@@ -50,8 +50,8 @@ h3 a {
 
 a:link,
 a:visited {
-    color: #0180AF;
-    text-decoration: underline;
+    color: #fff;
+    text-decoration: none;
 }
 
 a:hover {

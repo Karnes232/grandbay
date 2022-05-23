@@ -13,7 +13,7 @@ function Footer() {
             <div className="container text-center w-75 p-1 mx-auto footer-text">
                 <div className="row">
                     <div className="col-md-12 col-sm-12 col-xs-12">
-                        <p className="copyright-text">Copyright &copy; 2020 
+                        <p className="copyright-text">Copyright &copy; {new Date().getFullYear()}
                         </p>
                     </div>
 

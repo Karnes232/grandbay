@@ -20,6 +20,8 @@ a:hover, a:active {
   color: inherit;
 }
 
+
+
 .girl-on-boat {
   top: 60px;
   
@@ -224,7 +226,9 @@ a:hover, a:active {
 }
 
 @media screen and (min-width:1024px) {
-  
+  .container-tui {
+    max-width: 100vw;
+  }
   .page-footer {
     
     position: absolute;

@@ -1,25 +1,21 @@
-import React, {useState} from 'react';
-import DiscoverCarousel  from '../components/DiscoverCarousel';
-import Footer from '../components/Footer';
+import React from 'react';
+import DiscoverCarousel  from '../../components/DiscoverCarousel';
+import Footer from '../../components/Footer';
 import Helment from 'react-helmet'
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Seo from "../../components/seo"
 
 import Button from 'react-bootstrap/Button';
+import LayoutTui from '../../components/layoutTui';
 
-
-import { PayPalButton } from "react-paypal-button-v2";
 
 function ScubaDiver() {
-
-    const [paidFor, setPaidFor] = useState(false);
 
     return (
         <>
         <Helment>
             <link rel="canonical" href="https://www.grandbay-puntacana.com/scubadiver/" />
         </Helment>
-        <Layout>
+        <LayoutTui>
         <Seo title="PADI Scuba Diver" description="The scuba diver course is the first level of certification, allowing you to dive with a professional." />
             <DiscoverCarousel/>
             <div className="mx-5 text-center mt-4 dive-info">    
@@ -35,41 +31,13 @@ function ScubaDiver() {
                 <div className="well">
                     <h3>Course Overview</h3>
                     <p className='my-1'>Course Level: Beginner</p>
-                    <p className='my-1'>Price: $300 per person</p>
+                    <p className='my-1'>Price: $390 per person</p>
                     <p className='my-1'>Duration: 4 - 2.5 Hours sessions</p>
                     <p className='my-1'>Includes: Transport</p>
                     <p className='my-1'>Over 2 days</p>
                 </div> 
-                <div className="well">
-                    <p className='mb-1 mt-2'><strong>Reserve Now</strong></p>
-                    <p className='mt-1'>Only a 50% deposit</p>
-                </div>
-                {paidFor ? (
-                    <div>
-                        <h6>Thanks for choosing to dive with us!</h6>
-                    </div>
-                ) : (
-                    <div className="well d-flex justify-content-center mb-2">
-                    <PayPalButton
-                        amount="150.00"
-                        shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
-                        onSuccess={(details, data) => {
-                            setPaidFor(true)
-
-                        // OPTIONAL: Call your server to save the transaction
-                        return fetch("/paypal-transaction-complete", {
-                            method: "post",
-                            body: JSON.stringify({
-                            orderId: data.orderID
-                            })
-                        });
-                        }}
-                        options={{
-                        clientId: "AaPiNuBE-3bjn86CtDSbnbs5nnaeQ-vNhBk48DdMwZ0vsUYGVuE1_38burybKxv_Qn78gXQYUSKf1UG0"
-                        }}
-                    />
-                    </div>
-                )}
+                
+                
             </div>
             <div className="col-sm-4 d-flex align-items-center">
                 <div className="well">
@@ -101,12 +69,12 @@ function ScubaDiver() {
                 </div>
                 </div>
                 <div className="well d-flex justify-content-between mx-2">
-                    <Button href="/discover" size="sm">Discover</Button>
-                    <Button href="/openwater" size="sm">Open Water</Button>
+                    <Button href="/tui/discover" size="sm">Discover</Button>
+                    <Button href="/tui/openwater" size="sm">Open Water</Button>
                 </div>
         </div>
         <Footer/>
-        </Layout>
+        </LayoutTui>
         </>
     )
 }
