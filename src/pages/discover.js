@@ -35,7 +35,7 @@ function Discover() {
                     <div className="well">
                         <h3><strong>Course Overview</strong></h3>
                         <p className='my-1'>Course Level: Beginner</p>
-                        <p className='my-1'>Price: $85 per person</p>
+                        <p className='my-1'>Price: $95 per person</p>
                         <p className='my-1'>Duration: 2.5 Hours</p>
                         <p>Includes: Transport</p>
                     </div> 
@@ -50,7 +50,7 @@ function Discover() {
                     ) : (
                         <div className="well d-flex justify-content-center mb-2">
                         <PayPalButton
-                            amount="42.50"
+                            amount="47.50"
                             shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
                             onSuccess={(details, data) => {
                                 setPaidFor(true)
