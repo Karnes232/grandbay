@@ -2,6 +2,10 @@
     height: 60px;
   }
 
+a:link, a:visited {
+  color:inherit
+}
+
   @media screen and (min-width:1900px) {
     .navbar-brand img {
       height: 90px;
