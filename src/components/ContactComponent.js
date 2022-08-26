@@ -49,7 +49,7 @@ export default function Contact() {
               action="/contact/?success=true"
               data-netlify="true" 
               className={classes.form}
-              id='contact'
+
               >
           <input type="hidden" name="form-name" value="contact" />
             <TextField 

@@ -80,8 +80,7 @@ module.exports = {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
  // Google Analytics / GA
-          "G-6MJLJ90SSM",
-          "GTM-KGLHKQW", // Google Ads / Adwords / AW
+          "G-6MJLJ90SSM", // Google Ads / Adwords / AW
 // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
         ],
         // This object gets passed directly to the gtag config command
@@ -100,19 +99,6 @@ module.exports = {
           // Avoids sending pageview hits from custom paths
           exclude: ["/preview/**", "/do-not-track/me/too/"],
         },
-      },
-    },
-    {
-      resolve: "gatsby-plugin-google-tagmanager",
-      options: {
-        id: "GTM-KGLHKQW",
-  
-        includeInDevelopment: false,
-        defaultDataLayer: { platform: "gatsby" },
-  
-
-        enableWebVitalsTracking: true,
-       
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
